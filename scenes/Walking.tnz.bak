@@ -1,0 +1,3818 @@
+<tnz framecount="64" version="71.0">
+  <generator>
+    "OpenToonz 1.4"
+  </generator>
+  <properties>
+    <cameras>
+      <camera>
+        <cameraSize>
+          5.83333 7.08333 
+        </cameraSize>
+        <cameraRes>
+          700 850 
+        </cameraRes>
+        <cameraXPrevalence>
+          1 
+        </cameraXPrevalence>
+        <interestRect>
+          0 0 -1 -1 
+        </interestRect>
+        </camera>
+      </cameras>
+    <outputs>
+      <output name="main">
+        <range>
+          0 -1 
+        </range>
+        <step>
+          1 
+        </step>
+        <shrink>
+          1 
+        </shrink>
+        <applyShrinkToViewer>
+          0 
+        </applyShrinkToViewer>
+        <fps>
+          24 
+        </fps>
+        <path>
+          "+outputs\\.png"
+        </path>
+        <bpp>
+          64 
+        </bpp>
+        <multimedia>
+          0 
+        </multimedia>
+        <threadsIndex>
+          2 
+        </threadsIndex>
+        <maxTileSizeIndex>
+          0 
+        </maxTileSizeIndex>
+        <subcameraPrev>
+          0 
+        </subcameraPrev>
+        <stereoscopic>
+          0 0.05 
+        </stereoscopic>
+        <resquality>
+          0 
+        </resquality>
+        <fieldprevalence>
+          0 
+        </fieldprevalence>
+        <gamma>
+          1 
+        </gamma>
+        <timestretch>
+          25 25 
+        </timestretch>
+        <formatsProperties>
+          <formatProperties ext="png">
+            <property name="Alpha Channel" type="bool" value="true"/>
+            </formatProperties>
+          <formatProperties ext="tif">
+            <property name="Byte Ordering" type="enum" value="IBM PC">
+              <item value="IBM PC"/>
+              <item value="Mac"/>
+              </property>
+            <property name="Compression Type" type="enum" value="Lempel-Ziv & Welch encoding">
+              <item value="Lempel-Ziv & Welch encoding"/>
+              <item value="None"/>
+              <item value="Macintosh Run-length encoding"/>
+              <item value="ThunderScan Run-length encoding"/>
+              <item value="CCITT Group 3 fax encoding"/>
+              <item value="CCITT Group 4 fax encoding"/>
+              <item value="CCITT modified Huffman Run-length encoding"/>
+              <item value="JPEG compression"/>
+              <item value="JPEG compression 6.0"/>
+              <item value="SGILog"/>
+              <item value="SGILog24"/>
+              <item value="8"/>
+              <item value="zip"/>
+              <item value="Unknown"/>
+              </property>
+            <property name="Bits Per Pixel" type="enum" value="32(RGBM)">
+              <item value="24(RGB)"/>
+              <item value="48(RGB)"/>
+              <item value=" 1(BW)"/>
+              <item value=" 8(GREYTONES)"/>
+              <item value="32(RGBM)"/>
+              <item value="64(RGBM)"/>
+              </property>
+            <property name="Orientation" type="enum" value="Top Left">
+              <item value="Top Left"/>
+              <item value="Top Right"/>
+              <item value="Bottom Right"/>
+              <item value="Bottom Left"/>
+              <item value="Left Top"/>
+              <item value="Right Top"/>
+              <item value="Right Bottom"/>
+              <item value="Left Bottom"/>
+              </property>
+            </formatProperties>
+          </formatsProperties>
+        </output>
+      <output name="preview">
+        <range>
+          0 -1 
+        </range>
+        <step>
+          1 
+        </step>
+        <shrink>
+          1 
+        </shrink>
+        <applyShrinkToViewer>
+          0 
+        </applyShrinkToViewer>
+        <fps>
+          24 
+        </fps>
+        <path>
+          "+outputs\\.tif"
+        </path>
+        <bpp>
+          32 
+        </bpp>
+        <multimedia>
+          0 
+        </multimedia>
+        <threadsIndex>
+          2 
+        </threadsIndex>
+        <maxTileSizeIndex>
+          0 
+        </maxTileSizeIndex>
+        <subcameraPrev>
+          0 
+        </subcameraPrev>
+        <stereoscopic>
+          0 0.05 
+        </stereoscopic>
+        <resquality>
+          0 
+        </resquality>
+        <fieldprevalence>
+          0 
+        </fieldprevalence>
+        <gamma>
+          1 
+        </gamma>
+        <timestretch>
+          25 25 
+        </timestretch>
+        <formatsProperties>
+          <formatProperties ext="tif">
+            <property name="Byte Ordering" type="enum" value="IBM PC">
+              <item value="IBM PC"/>
+              <item value="Mac"/>
+              </property>
+            <property name="Compression Type" type="enum" value="Lempel-Ziv & Welch encoding">
+              <item value="Lempel-Ziv & Welch encoding"/>
+              <item value="None"/>
+              <item value="Macintosh Run-length encoding"/>
+              <item value="ThunderScan Run-length encoding"/>
+              <item value="CCITT Group 3 fax encoding"/>
+              <item value="CCITT Group 4 fax encoding"/>
+              <item value="CCITT modified Huffman Run-length encoding"/>
+              <item value="JPEG compression"/>
+              <item value="JPEG compression 6.0"/>
+              <item value="SGILog"/>
+              <item value="SGILog24"/>
+              <item value="8"/>
+              <item value="zip"/>
+              <item value="Unknown"/>
+              </property>
+            <property name="Bits Per Pixel" type="enum" value="32(RGBM)">
+              <item value="24(RGB)"/>
+              <item value="48(RGB)"/>
+              <item value=" 1(BW)"/>
+              <item value=" 8(GREYTONES)"/>
+              <item value="32(RGBM)"/>
+              <item value="64(RGBM)"/>
+              </property>
+            <property name="Orientation" type="enum" value="Top Left">
+              <item value="Top Left"/>
+              <item value="Top Right"/>
+              <item value="Bottom Right"/>
+              <item value="Bottom Left"/>
+              <item value="Left Top"/>
+              <item value="Right Top"/>
+              <item value="Right Bottom"/>
+              <item value="Left Bottom"/>
+              </property>
+            </formatProperties>
+          </formatsProperties>
+        </output>
+      </outputs>
+    <cleanupParameters>
+      <cleanupCamera>
+        <cameraSize>
+          16 9 
+        </cameraSize>
+        <cameraRes>
+          1920 1080 
+        </cameraRes>
+        <cameraXPrevalence>
+          1 
+        </cameraXPrevalence>
+        <interestRect>
+          0 0 -1 -1 
+        </interestRect>
+        </cleanupCamera>
+      <cleanupPalette>
+        <version>
+          71 0 
+        </version>
+        <styles>
+          <style>
+            color_0 3 255 255 255 0 
+          </style>
+          <style>
+            color_1 2002 0 0 0 255 0 0 0 255 0 50 70 10 
+          </style>
+          </styles>
+        <stylepages>
+          <page>
+            <name>
+              colors 
+            </name>
+            <indices>
+              0 1 
+            </indices>
+            </page>
+          </stylepages>
+        <shortcuts>
+          -1 0 1 -1 -1 -1 -1 -1 -1 -1 
+        </shortcuts>
+        </cleanupPalette>
+      <lineProcessing autoAdjust="0" mode="grey" sharpness="90.000000"/>
+      <despeckling value="2"/>
+      <aaValue value="70"/>
+      <closestField value="999.000000"/>
+      <fdg name=""/>
+      </cleanupParameters>
+    <scanParameters>
+      <paper fmt=""/>
+      </scanParameters>
+    <vectorizerParameters>
+      <version>
+        71 0 
+      </version>
+      <outline>
+        0 
+      </outline>
+      <visibilityBits>
+        -1 
+      </visibilityBits>
+      <Centerline>
+        <threshold>
+          8 
+        </threshold>
+        <accuracy>
+          9 
+        </accuracy>
+        <despeckling>
+          5 
+        </despeckling>
+        <maxThickness>
+          200 
+        </maxThickness>
+        <thicknessRatioFirst>
+          100 
+        </thicknessRatioFirst>
+        <thicknessRatioLast>
+          100 
+        </thicknessRatioLast>
+        <makeFrame>
+          0 
+        </makeFrame>
+        <paintFill>
+          0 
+        </paintFill>
+        <naaSource>
+          0 
+        </naaSource>
+        </Centerline>
+      <Outline>
+        <despeckling>
+          4 
+        </despeckling>
+        <accuracy>
+          8 
+        </accuracy>
+        <adherence>
+          50 
+        </adherence>
+        <angle>
+          45 
+        </angle>
+        <relative>
+          25 
+        </relative>
+        <maxColors>
+          50 
+        </maxColors>
+        <toneThreshold>
+          128 
+        </toneThreshold>
+        <transparentColor>
+          255 255 255 255 
+        </transparentColor>
+        <paintFill>
+          0 
+        </paintFill>
+        </Outline>
+      </vectorizerParameters>
+    <bgColor>
+      255 255 255 0 
+    </bgColor>
+    <markers>
+      6 0 
+    </markers>
+    <subsampling>
+      1 1 
+    </subsampling>
+    <fieldguide>
+      16 1.77778 
+    </fieldguide>
+    <noteColors>
+      255 235 140 255 255 160 120 255 255 180 190 255 135 205 250 255 145 240 145 255 130 255 210 255 150 245 255 255 
+    </noteColors>
+    </properties>
+  <levelSet>
+    <levels>
+      <level id='1'>
+        A 
+        <info dpiType="image"/>
+        <path>
+          "+drawings\\Walking\\A.tlv"
+        </path>
+        
+      </level>
+      <level id='2'>
+        Face 
+        <info dpiType="image"/>
+        <path>
+          "+drawings\\Walking\\Face.pli"
+        </path>
+        
+      </level>
+      <level id='3'>
+        Body 
+        <info dpiType="image"/>
+        <path>
+          "+drawings\\Walking\\Body.tlv"
+        </path>
+        
+      </level>
+      <level id='4'>
+        Body_ 
+        <info dpiType="image"/>
+        <path>
+          "+drawings\\Walking\\Body_.pli"
+        </path>
+        
+      </level>
+      <level id='5'>
+        "B Hand"
+        <info dpiType="image"/>
+        <path>
+          "+drawings\\Walking\\R Hand.pli"
+        </path>
+        
+      </level>
+      <level id='6'>
+        "F Hand"
+        <info dpiType="image"/>
+        <path>
+          "+drawings\\Walking\\F Hand.pli"
+        </path>
+        
+      </level>
+      <level id='7'>
+        "Back Leg"
+        <info dpiType="image"/>
+        <path>
+          "+drawings\\Walking\\Back Leg.tlv"
+        </path>
+        
+      </level>
+      <level id='8'>
+        "B Leg"
+        <info dpiType="image"/>
+        <path>
+          "+drawings\\Walking\\B Leg.pli"
+        </path>
+        
+      </level>
+      <level id='9'>
+        "F Leg"
+        <info dpiType="image"/>
+        <path>
+          "+drawings\\Walking\\F Leg.pli"
+        </path>
+        
+      </level>
+      <level id='10'>
+        B 
+        <info dpiType="image"/>
+        <path>
+          "+drawings\\Walking\\B.tlv"
+        </path>
+        
+      </level>
+      <level id='11'>
+        Lines 
+        <info dpiType="image"/>
+        <path>
+          "+drawings\\Walking\\Lines.pli"
+        </path>
+        
+      </level>
+      <childLevel id='12'>
+        <xsheet id='13'>
+          
+          <columns>
+            <levelColumn id='14'>
+              
+              <status>
+                0 
+              </status>
+              <cells>
+                <cell>
+                  0 1 <level id='11'/>0001 0 
+                </cell>
+                </cells>
+              <fx>
+                <Toonz_columnFx id='15'>
+                  
+                  <params>
+                    </params>
+                  <ports>
+                    </ports>
+                  <dagNodePos>
+                    25005 24255 
+                  </dagNodePos>
+                  <numberId>
+                    0 
+                  </numberId>
+                  <name>
+                    LevelColumn 
+                  </name>
+                  <fxId>
+                    "" 
+                  </fxId>
+                  <opened>
+                    0 
+                  </opened>
+                  
+                </Toonz_columnFx>
+                
+              </fx>
+              
+            </levelColumn>
+            
+          </columns>
+          <pegbars>
+            <pegbar activeboth="yes" id="Camera1">
+              <parent handle="B" id="None" parentHandle="B">
+                </parent>
+              <isOpened>
+                0 
+              </isOpened>
+              <center>
+                0 0 0 0 
+              </center>
+              <status>
+                0 
+              </status>
+              <sx>
+                <default>
+                  1 
+                </default>
+                </sx>
+              <sy>
+                <default>
+                  1 
+                </default>
+                </sy>
+              <sc>
+                <default>
+                  1 
+                </default>
+                </sc>
+              <nodePos>
+                1.234e+09 5.678e+09 
+              </nodePos>
+              <camera>
+                <cameraSize>
+                  16 9 
+                </cameraSize>
+                <cameraRes>
+                  1920 1080 
+                </cameraRes>
+                <cameraXPrevalence>
+                  1 
+                </cameraXPrevalence>
+                <interestRect>
+                  0 0 -1 -1 
+                </interestRect>
+                </camera>
+              </pegbar>
+            <pegbar id="Table">
+              <parent handle="B" id="None" parentHandle="B">
+                </parent>
+              <isOpened>
+                0 
+              </isOpened>
+              <center>
+                0 0 0 0 
+              </center>
+              <status>
+                0 
+              </status>
+              <sx>
+                <default>
+                  1 
+                </default>
+                </sx>
+              <sy>
+                <default>
+                  1 
+                </default>
+                </sy>
+              <sc>
+                <default>
+                  1 
+                </default>
+                </sc>
+              <nodePos>
+                1.234e+09 5.678e+09 
+              </nodePos>
+              </pegbar>
+            <pegbar id="Col1">
+              <parent handle="B" id="Table" parentHandle="B">
+                </parent>
+              <name>
+                Lines 
+              </name>
+              <isOpened>
+                0 
+              </isOpened>
+              <center>
+                0 0 0 0 
+              </center>
+              <status>
+                0 
+              </status>
+              <sx>
+                <default>
+                  1 
+                </default>
+                </sx>
+              <sy>
+                <default>
+                  1 
+                </default>
+                </sy>
+              <sc>
+                <default>
+                  1 
+                </default>
+                </sc>
+              <nodePos>
+                1.234e+09 5.678e+09 
+              </nodePos>
+              </pegbar>
+            <grid_dimension>
+              1 
+            </grid_dimension>
+            </pegbars>
+          <fxnodes>
+            <terminal>
+              <fxnode>
+                <Toonz_columnFx id='15'/>
+              </fxnode>
+              </terminal>
+            <xsheet>
+              <Toonz_xsheetFx id='16'>
+                
+                <params>
+                  </params>
+                <ports>
+                  </ports>
+                <numberId>
+                  0 
+                </numberId>
+                <name>
+                  Xsheet 
+                </name>
+                <fxId>
+                  "" 
+                </fxId>
+                <opened>
+                  0 
+                </opened>
+                
+              </Toonz_xsheetFx>
+              
+            </xsheet>
+            <output>
+              <Toonz_outputFx id='17'>
+                
+                <params>
+                  </params>
+                <ports>
+                  <source>
+                    <Toonz_xsheetFx id='16'/>
+                  </source>
+                  </ports>
+                <numberId>
+                  0 
+                </numberId>
+                <name>
+                  Output 
+                </name>
+                <fxId>
+                  "" 
+                </fxId>
+                <opened>
+                  0 
+                </opened>
+                
+              </Toonz_outputFx>
+              
+            </output>
+            <grid_dimension>
+              1 
+            </grid_dimension>
+            </fxnodes>
+          
+        </xsheet>
+        
+        <name>
+          sub 
+        </name>
+        
+      </childLevel>
+      <childLevel id='18'>
+        <xsheet id='19'>
+          
+          <columns>
+            <levelColumn id='20'>
+              
+              <status>
+                0 
+              </status>
+              <cells>
+                <cell>
+                  0 1 <childLevel id='12'/>0001 0 
+                </cell>
+                </cells>
+              <fx>
+                <Toonz_columnFx id='21'>
+                  
+                  <params>
+                    </params>
+                  <ports>
+                    </ports>
+                  <dagNodePos>
+                    25005 24255 
+                  </dagNodePos>
+                  <numberId>
+                    0 
+                  </numberId>
+                  <name>
+                    LevelColumn 
+                  </name>
+                  <fxId>
+                    "" 
+                  </fxId>
+                  <opened>
+                    0 
+                  </opened>
+                  
+                </Toonz_columnFx>
+                
+              </fx>
+              
+            </levelColumn>
+            
+          </columns>
+          <pegbars>
+            <pegbar activeboth="yes" id="Camera1">
+              <parent handle="B" id="None" parentHandle="B">
+                </parent>
+              <isOpened>
+                0 
+              </isOpened>
+              <center>
+                0 0 0 0 
+              </center>
+              <status>
+                0 
+              </status>
+              <sx>
+                <default>
+                  1 
+                </default>
+                </sx>
+              <sy>
+                <default>
+                  1 
+                </default>
+                </sy>
+              <sc>
+                <default>
+                  1 
+                </default>
+                </sc>
+              <nodePos>
+                1.234e+09 5.678e+09 
+              </nodePos>
+              <camera>
+                <cameraSize>
+                  16 9 
+                </cameraSize>
+                <cameraRes>
+                  1920 1080 
+                </cameraRes>
+                <cameraXPrevalence>
+                  1 
+                </cameraXPrevalence>
+                <interestRect>
+                  0 0 -1 -1 
+                </interestRect>
+                </camera>
+              </pegbar>
+            <pegbar id="Table">
+              <parent handle="B" id="None" parentHandle="B">
+                </parent>
+              <isOpened>
+                0 
+              </isOpened>
+              <center>
+                0 0 0 0 
+              </center>
+              <status>
+                0 
+              </status>
+              <sx>
+                <default>
+                  1 
+                </default>
+                </sx>
+              <sy>
+                <default>
+                  1 
+                </default>
+                </sy>
+              <sc>
+                <default>
+                  1 
+                </default>
+                </sc>
+              <nodePos>
+                1.234e+09 5.678e+09 
+              </nodePos>
+              </pegbar>
+            <pegbar id="Col1">
+              <parent handle="B" id="Table" parentHandle="B">
+                </parent>
+              <isOpened>
+                0 
+              </isOpened>
+              <center>
+                0 0 0 0 
+              </center>
+              <status>
+                0 
+              </status>
+              <sx>
+                <default>
+                  1 
+                </default>
+                </sx>
+              <sy>
+                <default>
+                  1 
+                </default>
+                </sy>
+              <sc>
+                <default>
+                  1 
+                </default>
+                </sc>
+              <nodePos>
+                1.234e+09 5.678e+09 
+              </nodePos>
+              </pegbar>
+            <grid_dimension>
+              1 
+            </grid_dimension>
+            </pegbars>
+          <fxnodes>
+            <terminal>
+              <fxnode>
+                <Toonz_columnFx id='21'/>
+              </fxnode>
+              </terminal>
+            <xsheet>
+              <Toonz_xsheetFx id='22'>
+                
+                <params>
+                  </params>
+                <ports>
+                  </ports>
+                <numberId>
+                  0 
+                </numberId>
+                <name>
+                  Xsheet 
+                </name>
+                <fxId>
+                  "" 
+                </fxId>
+                <opened>
+                  0 
+                </opened>
+                
+              </Toonz_xsheetFx>
+              
+            </xsheet>
+            <output>
+              <Toonz_outputFx id='23'>
+                
+                <params>
+                  </params>
+                <ports>
+                  <source>
+                    <Toonz_xsheetFx id='22'/>
+                  </source>
+                  </ports>
+                <numberId>
+                  0 
+                </numberId>
+                <name>
+                  Output 
+                </name>
+                <fxId>
+                  "" 
+                </fxId>
+                <opened>
+                  0 
+                </opened>
+                
+              </Toonz_outputFx>
+              
+            </output>
+            <grid_dimension>
+              1 
+            </grid_dimension>
+            </fxnodes>
+          
+        </xsheet>
+        
+        <name>
+          sub_1 
+        </name>
+        
+      </childLevel>
+      
+    </levels>
+    <folder name="Cast" type="default">
+      <levels>
+        <level id='4'/><level id='6'/><level id='8'/><level id='5'/><level id='9'/><level id='3'/><level id='7'/><level id='1'/><level id='2'/><level id='11'/><level id='10'/><childLevel id='12'/><childLevel id='18'/>
+      </levels>
+      </folder>
+    <folder name="Audio">
+      </folder>
+    </levelSet>
+  <xsheet>
+    <columns>
+      <levelColumn id='24'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            0 64 <childLevel id='18'/>0001 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='25'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <dagNodePos>
+              25005 24255 
+            </dagNodePos>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              LevelColumn 
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='26'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            0 52 <level id='8'/>0001 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='27'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <dagNodePos>
+              25005 24955 
+            </dagNodePos>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              "LevelColumn AffineFx"
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='28'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            0 52 <level id='8'/>0002 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='29'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <dagNodePos>
+              25005 24655 
+            </dagNodePos>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              "LevelColumn AffineFx"
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='30'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            0 52 <level id='8'/>0003 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='31'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <dagNodePos>
+              25005 24605 
+            </dagNodePos>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              "LevelColumn AffineFx"
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='32'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            0 52 <level id='8'/>0004 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='33'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <dagNodePos>
+              25005 24555 
+            </dagNodePos>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              "LevelColumn AffineFx"
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='34'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            0 52 <level id='5'/>0001 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='35'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <dagNodePos>
+              25005 24905 
+            </dagNodePos>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              "LevelColumn AffineFx"
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='36'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            0 52 <level id='5'/>0002 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='37'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <dagNodePos>
+              25005 24505 
+            </dagNodePos>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              "LevelColumn AffineFx"
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='38'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            0 52 <level id='4'/>0001 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='39'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <dagNodePos>
+              25005 24805 
+            </dagNodePos>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              "LevelColumn AffineFx"
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='40'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            0 52 <level id='4'/>0002 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='41'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <dagNodePos>
+              25005 25005 
+            </dagNodePos>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              "LevelColumn AffineFx"
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='42'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            0 52 <level id='6'/>0001 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='43'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <dagNodePos>
+              25005 24755 
+            </dagNodePos>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              "LevelColumn AffineFx"
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='44'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            0 52 <level id='6'/>0002 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='45'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <dagNodePos>
+              25005 24705 
+            </dagNodePos>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              "LevelColumn AffineFx"
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='46'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            0 52 <level id='2'/>0001 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='47'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <dagNodePos>
+              25005 24855 
+            </dagNodePos>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              "LevelColumn AffineFx"
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='48'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            0 52 <level id='9'/>0002 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='49'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <dagNodePos>
+              25005 24455 
+            </dagNodePos>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              "LevelColumn AffineFx"
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='50'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            0 52 <level id='9'/>0003 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='51'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <dagNodePos>
+              25005 24405 
+            </dagNodePos>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              "LevelColumn AffineFx"
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='52'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            0 52 <level id='9'/>0004 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='53'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <dagNodePos>
+              25005 24355 
+            </dagNodePos>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              "LevelColumn AffineFx"
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='54'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            0 52 <level id='9'/>0005 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='55'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <dagNodePos>
+              25005 24305 
+            </dagNodePos>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              "LevelColumn AffineFx"
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      
+    </columns>
+    <pegbars>
+      <pegbar activeboth="yes" id="Camera1">
+        <parent handle="B" id="None" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          23729.2 24965.8 
+        </nodePos>
+        <camera>
+          <cameraSize>
+            5.83333 7.08333 
+          </cameraSize>
+          <cameraRes>
+            700 850 
+          </cameraRes>
+          <cameraXPrevalence>
+            1 
+          </cameraXPrevalence>
+          <interestRect>
+            0 0 -1 -1 
+          </interestRect>
+          </camera>
+        </pegbar>
+      <pegbar id="Table">
+        <parent handle="B" id="None" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          24024.7 25430.6 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Peg1">
+        <parent handle="B" id="Table" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          -0.139094 -2.58317 0.139094 2.58317 
+        </center>
+        <status>
+          0 
+        </status>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          24080 25489.8 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col1">
+        <parent handle="B" id="Table" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          24144.7 25430.6 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col2">
+        <parent handle="B" id="Col9" parentHandle="B">
+          </parent>
+        <name>
+          "B Leg 1"
+        </name>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          -0.110527 -0.502096 0.0625298 0.510301 
+        </center>
+        <status>
+          0 
+        </status>
+        <x>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0.110325 
+            </L>
+            </keyframes>
+          </x>
+        <y>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 -0.0119973 
+            </L>
+            </keyframes>
+          </y>
+        <z>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </z>
+        <so>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </so>
+        <sx>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sc>
+        <rot>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 376.03 
+            </L>
+            <L>
+              <prev>
+                358.85 
+              </prev>
+              12 358.85 
+            </L>
+            </keyframes>
+          </rot>
+        <pos>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </pos>
+        <shx>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </shx>
+        <shy>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </shy>
+        <nodePos>
+          24600.5 25460.2 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col3">
+        <parent handle="B" id="Col2" parentHandle="B">
+          </parent>
+        <name>
+          "B Leg 2"
+        </name>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0.681524 -1.34927 -0.681524 1.34927 
+        </center>
+        <status>
+          0 
+        </status>
+        <x>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </x>
+        <y>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </y>
+        <z>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </z>
+        <so>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </so>
+        <sx>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sc>
+        <rot>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 385.118 
+            </L>
+            <L>
+              <prev>
+                344.198 
+              </prev>
+              12 344.198 
+            </L>
+            </keyframes>
+          </rot>
+        <pos>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </pos>
+        <shx>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </shx>
+        <shy>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </shy>
+        <nodePos>
+          24615 25591.2 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col4">
+        <parent handle="B" id="Col3" parentHandle="B">
+          </parent>
+        <name>
+          "B Leg 3"
+        </name>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0.726906 -2.38826 -0.726906 2.38826 
+        </center>
+        <status>
+          0 
+        </status>
+        <x>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </x>
+        <y>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </y>
+        <z>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </z>
+        <so>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </so>
+        <sx>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sc>
+        <rot>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 368.888 
+            </L>
+            <L>
+              <prev>
+                389.335 
+              </prev>
+              12 389.335 
+            </L>
+            </keyframes>
+          </rot>
+        <pos>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </pos>
+        <shx>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </shx>
+        <shy>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </shy>
+        <nodePos>
+          24745.9 25594.6 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col5">
+        <parent handle="B" id="Col4" parentHandle="B">
+          </parent>
+        <name>
+          "B Leg 4"
+        </name>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0.990188 -2.40638 -0.990188 2.40638 
+        </center>
+        <status>
+          0 
+        </status>
+        <x>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </x>
+        <y>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </y>
+        <z>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </z>
+        <so>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </so>
+        <sx>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sc>
+        <rot>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 -14.6306 
+            </L>
+            </keyframes>
+          </rot>
+        <pos>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </pos>
+        <shx>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </shx>
+        <shy>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </shy>
+        <nodePos>
+          24875.2 25604.4 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col6">
+        <parent handle="B" id="Col8" parentHandle="B">
+          </parent>
+        <name>
+          "B Hand 1"
+        </name>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0.0835214 1.97306 -0.0835214 -1.97306 
+        </center>
+        <status>
+          0 
+        </status>
+        <x>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </x>
+        <y>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </y>
+        <z>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </z>
+        <so>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </so>
+        <sx>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sc>
+        <rot>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 -475.053 
+            </L>
+            <L>
+              <prev>
+                -481.567 
+              </prev>
+              12 -481.567 
+            </L>
+            </keyframes>
+          </rot>
+        <pos>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </pos>
+        <shx>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </shx>
+        <shy>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </shy>
+        <nodePos>
+          24605.4 25271.4 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col7">
+        <parent handle="B" id="Col6" parentHandle="B">
+          </parent>
+        <name>
+          "B Hand 2"
+        </name>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0.856249 1.11986 -0.856249 -1.11986 
+        </center>
+        <status>
+          0 
+        </status>
+        <x>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </x>
+        <y>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </y>
+        <z>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </z>
+        <so>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </so>
+        <sx>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sc>
+        <rot>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 112.077 
+            </L>
+            <L>
+              <prev>
+                100.054 
+              </prev>
+              12 100.054 
+            </L>
+            </keyframes>
+          </rot>
+        <pos>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </pos>
+        <shx>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </shx>
+        <shy>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </shy>
+        <nodePos>
+          24678.3 25336.7 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col8">
+        <parent handle="B" id="Col9" parentHandle="B">
+          </parent>
+        <name>
+          "Body 1"
+        </name>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          -0.376836 0.783087 0.314886 -1.01558 
+        </center>
+        <status>
+          0 
+        </status>
+        <x>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 -0.181855 
+            </L>
+            </keyframes>
+          </x>
+        <y>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 -0.259807 
+            </L>
+            </keyframes>
+          </y>
+        <z>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </z>
+        <so>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </so>
+        <sx>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 0.822749 
+            </L>
+            </keyframes>
+          </sc>
+        <rot>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 20.6844 
+            </L>
+            </keyframes>
+          </rot>
+        <pos>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </pos>
+        <shx>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </shx>
+        <shy>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </shy>
+        <nodePos>
+          24443.2 25279.6 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col9">
+        <parent handle="B" id="Peg1" parentHandle="B">
+          </parent>
+        <name>
+          "Body 2"
+        </name>
+        <isOpened>
+          0 
+        </isOpened>
+        <pinnedStatus>
+          <permanent>
+            0 1000000 
+          </permanent>
+          <placement>
+            0.999225 0.0393515 -1.6067 -0.0393515 0.999225 -1.01131 
+          </placement>
+          </pinnedStatus>
+        <center>
+          -0.00691201 -0.481604 0.20729 0.5603 
+        </center>
+        <status>
+          3 
+        </status>
+        <x>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0.194667 
+            </L>
+            <L>
+              <prev>
+                0.194667 
+              </prev>
+              12 0.194667 
+            </L>
+            </keyframes>
+          </x>
+        <y>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 -0.661979 
+            </L>
+            <L>
+              <prev>
+                -0.443707 
+              </prev>
+              12 -0.443707 
+            </L>
+            </keyframes>
+          </y>
+        <z>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </z>
+        <so>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </so>
+        <sx>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 0.947016 
+            </L>
+            </keyframes>
+          </sc>
+        <rot>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 -10.8166 
+            </L>
+            </keyframes>
+          </rot>
+        <pos>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </pos>
+        <shx>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </shx>
+        <shy>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </shy>
+        <nodePos>
+          24472.1 25402.8 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col10">
+        <parent handle="B" id="Col8" parentHandle="B">
+          </parent>
+        <name>
+          "F Hand 1"
+        </name>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0.104074 1.98448 -0.104074 -1.98448 
+        </center>
+        <status>
+          0 
+        </status>
+        <x>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </x>
+        <y>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </y>
+        <z>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </z>
+        <so>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </so>
+        <sx>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sc>
+        <rot>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 -271.748 
+            </L>
+            <L>
+              <prev>
+                -256.259 
+              </prev>
+              12 -256.259 
+            </L>
+            </keyframes>
+          </rot>
+        <pos>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </pos>
+        <shx>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </shx>
+        <shy>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </shy>
+        <nodePos>
+          24297 25228.3 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col11">
+        <parent handle="B" id="Col10" parentHandle="B">
+          </parent>
+        <name>
+          "F Hand 2"
+        </name>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          -0.946459 1.3121 0.946459 -1.3121 
+        </center>
+        <status>
+          0 
+        </status>
+        <x>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </x>
+        <y>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </y>
+        <z>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </z>
+        <so>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </so>
+        <sx>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sc>
+        <rot>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 -351.534 
+            </L>
+            <L>
+              <prev>
+                -348.042 
+              </prev>
+              12 -348.042 
+            </L>
+            </keyframes>
+          </rot>
+        <pos>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </pos>
+        <shx>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </shx>
+        <shy>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </shy>
+        <nodePos>
+          24271.6 25288.9 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col12">
+        <parent handle="B" id="Col8" parentHandle="B">
+          </parent>
+        <name>
+          Face 
+        </name>
+        <isOpened>
+          1 
+        </isOpened>
+        <center>
+          0.090526 2.0034 -0.090526 -2.0034 
+        </center>
+        <status>
+          0 
+        </status>
+        <x>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </x>
+        <y>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </y>
+        <z>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </z>
+        <so>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </so>
+        <sx>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sc>
+        <rot>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 17.8269 
+            </L>
+            </keyframes>
+          </rot>
+        <pos>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </pos>
+        <shx>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </shx>
+        <shy>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </shy>
+        <nodePos>
+          24485.2 25187.7 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col13">
+        <parent handle="B" id="Col9" parentHandle="B">
+          </parent>
+        <name>
+          "F Leg 1"
+        </name>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          -0.0202977 -0.552117 0.0202977 0.552117 
+        </center>
+        <status>
+          0 
+        </status>
+        <x>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </x>
+        <y>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </y>
+        <z>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </z>
+        <so>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </so>
+        <sx>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sc>
+        <rot>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 23.7561 
+            </L>
+            <L>
+              <prev>
+                54.375 
+              </prev>
+              12 54.375 
+            </L>
+            </keyframes>
+          </rot>
+        <pos>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </pos>
+        <shx>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </shx>
+        <shy>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </shy>
+        <nodePos>
+          24365.9 25484.9 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col14">
+        <parent handle="B" id="Col13" parentHandle="B">
+          </parent>
+        <name>
+          "F Leg 2"
+        </name>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          -0.795777 -1.34414 0.795777 1.34414 
+        </center>
+        <status>
+          0 
+        </status>
+        <x>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </x>
+        <y>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </y>
+        <z>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </z>
+        <so>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </so>
+        <sx>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sc>
+        <rot>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 -64.4439 
+            </L>
+            <L>
+              <prev>
+                -109.211 
+              </prev>
+              12 -109.211 
+            </L>
+            </keyframes>
+          </rot>
+        <pos>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </pos>
+        <shx>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </shx>
+        <shy>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </shy>
+        <nodePos>
+          24286.7 25592.8 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col15">
+        <parent handle="B" id="Col14" parentHandle="B">
+          </parent>
+        <name>
+          "F Leg 3"
+        </name>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          -0.787607 -2.41833 0.787607 2.41833 
+        </center>
+        <status>
+          0 
+        </status>
+        <x>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </x>
+        <y>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </y>
+        <z>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </z>
+        <so>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </so>
+        <sx>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sc>
+        <rot>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 6.80422 
+            </L>
+            <L>
+              <prev>
+                -0.29017 
+              </prev>
+              12 -0.29017 
+            </L>
+            </keyframes>
+          </rot>
+        <pos>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </pos>
+        <shx>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </shx>
+        <shy>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </shy>
+        <nodePos>
+          24167.8 25597.2 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col16">
+        <parent handle="B" id="Col15" parentHandle="B">
+          </parent>
+        <name>
+          "F Leg 4"
+        </name>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          -0.545816 -2.40639 0.545816 2.40639 
+        </center>
+        <status>
+          0 
+        </status>
+        <x>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </x>
+        <y>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </y>
+        <z>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </z>
+        <so>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </so>
+        <sx>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sc>
+        <rot>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 51.8861 
+            </L>
+            <L>
+              <prev>
+                -7.44098 
+              </prev>
+              12 -7.44098 
+            </L>
+            </keyframes>
+          </rot>
+        <pos>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </pos>
+        <shx>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </shx>
+        <shy>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </shy>
+        <nodePos>
+          24034.5 25600.3 
+        </nodePos>
+        </pegbar>
+      <pegbar id="BadPegbar">
+        <parent handle="B" id="None" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          1.234e+09 5.678e+09 
+        </nodePos>
+        </pegbar>
+      <grid_dimension>
+        1 
+      </grid_dimension>
+      </pegbars>
+    <fxnodes>
+      <terminal>
+        <fxnode>
+          <Toonz_columnFx id='49'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='31'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='35'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='29'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='47'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='39'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='43'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='41'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='27'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='37'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='45'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='33'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='51'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='53'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='55'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='25'/>
+        </fxnode>
+        </terminal>
+      <xsheet>
+        <Toonz_xsheetFx id='56'>
+          
+          <params>
+            </params>
+          <ports>
+            </ports>
+          <dagNodePos>
+            25120 25000 
+          </dagNodePos>
+          <numberId>
+            0 
+          </numberId>
+          <name>
+            Xsheet 
+          </name>
+          <fxId>
+            "" 
+          </fxId>
+          <opened>
+            0 
+          </opened>
+          
+        </Toonz_xsheetFx>
+        
+      </xsheet>
+      <output>
+        <Toonz_outputFx id='57'>
+          
+          <params>
+            </params>
+          <ports>
+            <source>
+              <Toonz_xsheetFx id='56'/>
+            </source>
+            </ports>
+          <dagNodePos>
+            25235 24995 
+          </dagNodePos>
+          <numberId>
+            0 
+          </numberId>
+          <name>
+            OutputFx 
+          </name>
+          <fxId>
+            "" 
+          </fxId>
+          <opened>
+            0 
+          </opened>
+          
+        </Toonz_outputFx>
+        
+      </output>
+      <grid_dimension>
+        1 
+      </grid_dimension>
+      </fxnodes>
+    </xsheet>
+  <history>
+    "| #    DATE:       Time:   MACHINE:    USER:           |"
+    "| #1   18 Nov 20   11:31   PRATIK      Administrator   |"
+    "| #2   19 Nov 20   11:46   PRATIK      Administrator   |"
+  </history>
+  </tnz>

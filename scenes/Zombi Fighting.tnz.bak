@@ -1,0 +1,2390 @@
+<tnz framecount="20" version="71.0">
+  <generator>
+    "OpenToonz 1.4"
+  </generator>
+  <properties>
+    <cameras>
+      <camera>
+        <cameraSize>
+          5.8295 6.0809 
+        </cameraSize>
+        <cameraRes>
+          700 730 
+        </cameraRes>
+        <cameraXPrevalence>
+          1 
+        </cameraXPrevalence>
+        <interestRect>
+          0 0 -1 -1 
+        </interestRect>
+        </camera>
+      </cameras>
+    <outputs>
+      <output name="main">
+        <range>
+          0 -1 
+        </range>
+        <step>
+          1 
+        </step>
+        <shrink>
+          3 
+        </shrink>
+        <applyShrinkToViewer>
+          0 
+        </applyShrinkToViewer>
+        <fps>
+          24 
+        </fps>
+        <path>
+          "+outputs\\Z Fighting.spritesheet"
+        </path>
+        <bpp>
+          64 
+        </bpp>
+        <multimedia>
+          0 
+        </multimedia>
+        <threadsIndex>
+          0 
+        </threadsIndex>
+        <maxTileSizeIndex>
+          0 
+        </maxTileSizeIndex>
+        <subcameraPrev>
+          0 
+        </subcameraPrev>
+        <stereoscopic>
+          0 0.05 
+        </stereoscopic>
+        <resquality>
+          0 
+        </resquality>
+        <fieldprevalence>
+          0 
+        </fieldprevalence>
+        <gamma>
+          1 
+        </gamma>
+        <timestretch>
+          25 25 
+        </timestretch>
+        <formatsProperties>
+          <formatProperties ext="png">
+            <property name="Alpha Channel" type="bool" value="true"/>
+            </formatProperties>
+          <formatProperties ext="spritesheet">
+            <property name="Format" type="enum" value="Horizontal">
+              <item value="Grid"/>
+              <item value="Vertical"/>
+              <item value="Horizontal"/>
+              <item value="Individual"/>
+              </property>
+            <property max="100" min="0" name="Top Padding" type="int" value="0"/>
+            <property max="100" min="0" name="Bottom Padding" type="int" value="0"/>
+            <property max="100" min="0" name="Left Padding" type="int" value="0"/>
+            <property max="100" min="0" name="Right Padding" type="int" value="0"/>
+            <property max="100" min="1" name="Scale" type="int" value="100"/>
+            <property name="Trim Empty Space" type="bool" value="false"/>
+            </formatProperties>
+          <formatProperties ext="tif">
+            <property name="Byte Ordering" type="enum" value="IBM PC">
+              <item value="IBM PC"/>
+              <item value="Mac"/>
+              </property>
+            <property name="Compression Type" type="enum" value="Lempel-Ziv & Welch encoding">
+              <item value="Lempel-Ziv & Welch encoding"/>
+              <item value="None"/>
+              <item value="Macintosh Run-length encoding"/>
+              <item value="ThunderScan Run-length encoding"/>
+              <item value="CCITT Group 3 fax encoding"/>
+              <item value="CCITT Group 4 fax encoding"/>
+              <item value="CCITT modified Huffman Run-length encoding"/>
+              <item value="JPEG compression"/>
+              <item value="JPEG compression 6.0"/>
+              <item value="SGILog"/>
+              <item value="SGILog24"/>
+              <item value="8"/>
+              <item value="zip"/>
+              <item value="Unknown"/>
+              </property>
+            <property name="Bits Per Pixel" type="enum" value="32(RGBM)">
+              <item value="24(RGB)"/>
+              <item value="48(RGB)"/>
+              <item value=" 1(BW)"/>
+              <item value=" 8(GREYTONES)"/>
+              <item value="32(RGBM)"/>
+              <item value="64(RGBM)"/>
+              </property>
+            <property name="Orientation" type="enum" value="Top Left">
+              <item value="Top Left"/>
+              <item value="Top Right"/>
+              <item value="Bottom Right"/>
+              <item value="Bottom Left"/>
+              <item value="Left Top"/>
+              <item value="Right Top"/>
+              <item value="Right Bottom"/>
+              <item value="Left Bottom"/>
+              </property>
+            </formatProperties>
+          </formatsProperties>
+        </output>
+      <output name="preview">
+        <range>
+          0 19 
+        </range>
+        <step>
+          1 
+        </step>
+        <shrink>
+          1 
+        </shrink>
+        <applyShrinkToViewer>
+          0 
+        </applyShrinkToViewer>
+        <fps>
+          24 
+        </fps>
+        <path>
+          "+outputs\\.tif"
+        </path>
+        <bpp>
+          32 
+        </bpp>
+        <multimedia>
+          0 
+        </multimedia>
+        <threadsIndex>
+          2 
+        </threadsIndex>
+        <maxTileSizeIndex>
+          0 
+        </maxTileSizeIndex>
+        <subcameraPrev>
+          0 
+        </subcameraPrev>
+        <stereoscopic>
+          0 0.05 
+        </stereoscopic>
+        <resquality>
+          0 
+        </resquality>
+        <fieldprevalence>
+          0 
+        </fieldprevalence>
+        <gamma>
+          1 
+        </gamma>
+        <timestretch>
+          25 25 
+        </timestretch>
+        <formatsProperties>
+          <formatProperties ext="tif">
+            <property name="Byte Ordering" type="enum" value="IBM PC">
+              <item value="IBM PC"/>
+              <item value="Mac"/>
+              </property>
+            <property name="Compression Type" type="enum" value="Lempel-Ziv & Welch encoding">
+              <item value="Lempel-Ziv & Welch encoding"/>
+              <item value="None"/>
+              <item value="Macintosh Run-length encoding"/>
+              <item value="ThunderScan Run-length encoding"/>
+              <item value="CCITT Group 3 fax encoding"/>
+              <item value="CCITT Group 4 fax encoding"/>
+              <item value="CCITT modified Huffman Run-length encoding"/>
+              <item value="JPEG compression"/>
+              <item value="JPEG compression 6.0"/>
+              <item value="SGILog"/>
+              <item value="SGILog24"/>
+              <item value="8"/>
+              <item value="zip"/>
+              <item value="Unknown"/>
+              </property>
+            <property name="Bits Per Pixel" type="enum" value="32(RGBM)">
+              <item value="24(RGB)"/>
+              <item value="48(RGB)"/>
+              <item value=" 1(BW)"/>
+              <item value=" 8(GREYTONES)"/>
+              <item value="32(RGBM)"/>
+              <item value="64(RGBM)"/>
+              </property>
+            <property name="Orientation" type="enum" value="Top Left">
+              <item value="Top Left"/>
+              <item value="Top Right"/>
+              <item value="Bottom Right"/>
+              <item value="Bottom Left"/>
+              <item value="Left Top"/>
+              <item value="Right Top"/>
+              <item value="Right Bottom"/>
+              <item value="Left Bottom"/>
+              </property>
+            </formatProperties>
+          </formatsProperties>
+        </output>
+      </outputs>
+    <cleanupParameters>
+      <cleanupCamera>
+        <cameraSize>
+          16 9 
+        </cameraSize>
+        <cameraRes>
+          1920 1080 
+        </cameraRes>
+        <cameraXPrevalence>
+          1 
+        </cameraXPrevalence>
+        <interestRect>
+          0 0 -1 -1 
+        </interestRect>
+        </cleanupCamera>
+      <cleanupPalette>
+        <version>
+          71 0 
+        </version>
+        <styles>
+          <style>
+            color_0 3 255 255 255 0 
+          </style>
+          <style>
+            color_1 2002 0 0 0 255 0 0 0 255 0 50 70 10 
+          </style>
+          </styles>
+        <stylepages>
+          <page>
+            <name>
+              colors 
+            </name>
+            <indices>
+              0 1 
+            </indices>
+            </page>
+          </stylepages>
+        <shortcuts>
+          -1 0 1 -1 -1 -1 -1 -1 -1 -1 
+        </shortcuts>
+        </cleanupPalette>
+      <lineProcessing autoAdjust="0" mode="grey" sharpness="90.000000"/>
+      <despeckling value="2"/>
+      <aaValue value="70"/>
+      <closestField value="999.000000"/>
+      <fdg name=""/>
+      </cleanupParameters>
+    <scanParameters>
+      <paper fmt=""/>
+      </scanParameters>
+    <vectorizerParameters>
+      <version>
+        71 0 
+      </version>
+      <outline>
+        0 
+      </outline>
+      <visibilityBits>
+        -1 
+      </visibilityBits>
+      <Centerline>
+        <threshold>
+          8 
+        </threshold>
+        <accuracy>
+          9 
+        </accuracy>
+        <despeckling>
+          5 
+        </despeckling>
+        <maxThickness>
+          200 
+        </maxThickness>
+        <thicknessRatioFirst>
+          100 
+        </thicknessRatioFirst>
+        <thicknessRatioLast>
+          100 
+        </thicknessRatioLast>
+        <makeFrame>
+          0 
+        </makeFrame>
+        <paintFill>
+          0 
+        </paintFill>
+        <naaSource>
+          0 
+        </naaSource>
+        </Centerline>
+      <Outline>
+        <despeckling>
+          4 
+        </despeckling>
+        <accuracy>
+          8 
+        </accuracy>
+        <adherence>
+          50 
+        </adherence>
+        <angle>
+          45 
+        </angle>
+        <relative>
+          25 
+        </relative>
+        <maxColors>
+          50 
+        </maxColors>
+        <toneThreshold>
+          128 
+        </toneThreshold>
+        <transparentColor>
+          255 255 255 255 
+        </transparentColor>
+        <paintFill>
+          0 
+        </paintFill>
+        </Outline>
+      </vectorizerParameters>
+    <bgColor>
+      255 255 255 0 
+    </bgColor>
+    <markers>
+      6 0 
+    </markers>
+    <subsampling>
+      1 1 
+    </subsampling>
+    <fieldguide>
+      16 1.77778 
+    </fieldguide>
+    <noteColors>
+      255 235 140 255 255 160 120 255 255 180 190 255 135 205 250 255 145 240 145 255 130 255 210 255 150 245 255 255 
+    </noteColors>
+    </properties>
+  <levelSet>
+    <levels>
+      <level id='1'>
+        Face 
+        <info dpix="120.000000" dpiy="120.000000"/>
+        <path>
+          "+drawings\\Zombi Walking\\Face.pli"
+        </path>
+        
+      </level>
+      <level id='2'>
+        A 
+        <info dpiType="image"/>
+        <path>
+          "+drawings\\Zombi Walking\\A.tlv"
+        </path>
+        
+      </level>
+      <level id='3'>
+        B 
+        <info dpiType="image"/>
+        <path>
+          "+drawings\\Zombi Walking\\B.tlv"
+        </path>
+        
+      </level>
+      <level id='4'>
+        "Z Face F"
+        <info dpiType="image"/>
+        <path>
+          "+drawings\\Zombi Fighting\\Z Face F.pli"
+        </path>
+        
+      </level>
+      <level id='5'>
+        "Z Body F"
+        <info dpiType="image"/>
+        <path>
+          "+drawings\\Zombi Fighting\\Z Body F.pli"
+        </path>
+        
+      </level>
+      <level id='6'>
+        "Z Legs F"
+        <info dpiType="image"/>
+        <path>
+          "+drawings\\Zombi Fighting\\Z Legs F.pli"
+        </path>
+        
+      </level>
+      <level id='7'>
+        "Z Hand_UP F"
+        <info dpiType="image"/>
+        <path>
+          "+drawings\\Zombi Fighting\\Z Hand_UP F.pli"
+        </path>
+        
+      </level>
+      <level id='8'>
+        "Z Hand_DOWN F"
+        <info dpiType="image"/>
+        <path>
+          "+drawings\\Zombi Fighting\\Z Hand_DOWN F.pli"
+        </path>
+        
+      </level>
+      <childLevel id='9'>
+        <xsheet id='10'>
+          
+          <columns>
+            <levelColumn id='11'>
+              
+              <status>
+                3 
+              </status>
+              <cells>
+                <cell>
+                  0 1 <level id='3'/>0001 0 
+                </cell>
+                </cells>
+              <fx>
+                <Toonz_columnFx id='12'>
+                  
+                  <params>
+                    </params>
+                  <ports>
+                    </ports>
+                  <dagNodePos>
+                    25005 24510 
+                  </dagNodePos>
+                  <numberId>
+                    0 
+                  </numberId>
+                  <name>
+                    LevelColumn 
+                  </name>
+                  <fxId>
+                    "" 
+                  </fxId>
+                  <opened>
+                    0 
+                  </opened>
+                  
+                </Toonz_columnFx>
+                
+              </fx>
+              
+            </levelColumn>
+            
+          </columns>
+          <pegbars>
+            <pegbar activeboth="yes" id="Camera1">
+              <parent handle="B" id="None" parentHandle="B">
+                </parent>
+              <isOpened>
+                0 
+              </isOpened>
+              <center>
+                0 0 0 0 
+              </center>
+              <status>
+                0 
+              </status>
+              <sx>
+                <default>
+                  1 
+                </default>
+                </sx>
+              <sy>
+                <default>
+                  1 
+                </default>
+                </sy>
+              <sc>
+                <default>
+                  1 
+                </default>
+                </sc>
+              <nodePos>
+                1.234e+09 5.678e+09 
+              </nodePos>
+              <camera>
+                <cameraSize>
+                  16 9 
+                </cameraSize>
+                <cameraRes>
+                  1920 1080 
+                </cameraRes>
+                <cameraXPrevalence>
+                  1 
+                </cameraXPrevalence>
+                <interestRect>
+                  0 0 -1 -1 
+                </interestRect>
+                </camera>
+              </pegbar>
+            <pegbar id="Table">
+              <parent handle="B" id="None" parentHandle="B">
+                </parent>
+              <isOpened>
+                0 
+              </isOpened>
+              <center>
+                0 0 0 0 
+              </center>
+              <status>
+                0 
+              </status>
+              <sx>
+                <default>
+                  1 
+                </default>
+                </sx>
+              <sy>
+                <default>
+                  1 
+                </default>
+                </sy>
+              <sc>
+                <default>
+                  1 
+                </default>
+                </sc>
+              <nodePos>
+                1.234e+09 5.678e+09 
+              </nodePos>
+              </pegbar>
+            <pegbar id="Col1">
+              <parent handle="B" id="Table" parentHandle="B">
+                </parent>
+              <isOpened>
+                0 
+              </isOpened>
+              <center>
+                0 0 0 0 
+              </center>
+              <status>
+                0 
+              </status>
+              <sx>
+                <default>
+                  1 
+                </default>
+                </sx>
+              <sy>
+                <default>
+                  1 
+                </default>
+                </sy>
+              <sc>
+                <default>
+                  1 
+                </default>
+                </sc>
+              <nodePos>
+                1.234e+09 5.678e+09 
+              </nodePos>
+              </pegbar>
+            <grid_dimension>
+              1 
+            </grid_dimension>
+            </pegbars>
+          <fxnodes>
+            <terminal>
+              <fxnode>
+                <Toonz_columnFx id='12'/>
+              </fxnode>
+              </terminal>
+            <xsheet>
+              <Toonz_xsheetFx id='13'>
+                
+                <params>
+                  </params>
+                <ports>
+                  </ports>
+                <numberId>
+                  0 
+                </numberId>
+                <name>
+                  Xsheet 
+                </name>
+                <fxId>
+                  "" 
+                </fxId>
+                <opened>
+                  0 
+                </opened>
+                
+              </Toonz_xsheetFx>
+              
+            </xsheet>
+            <output>
+              <Toonz_outputFx id='14'>
+                
+                <params>
+                  </params>
+                <ports>
+                  <source>
+                    <Toonz_xsheetFx id='13'/>
+                  </source>
+                  </ports>
+                <numberId>
+                  0 
+                </numberId>
+                <name>
+                  Output 
+                </name>
+                <fxId>
+                  "" 
+                </fxId>
+                <opened>
+                  0 
+                </opened>
+                
+              </Toonz_outputFx>
+              
+            </output>
+            <grid_dimension>
+              1 
+            </grid_dimension>
+            </fxnodes>
+          
+        </xsheet>
+        
+        <name>
+          sub 
+        </name>
+        
+      </childLevel>
+      
+    </levels>
+    <folder name="Cast" type="default">
+      <levels>
+        <childLevel id='9'/><level id='6'/><level id='3'/><level id='7'/><level id='8'/><level id='4'/><level id='1'/><level id='2'/><level id='5'/>
+      </levels>
+      </folder>
+    <folder name="Audio">
+      </folder>
+    </levelSet>
+  <xsheet>
+    <columns>
+      <levelColumn id='15'>
+        
+        <status>
+          2 
+        </status>
+        <cells>
+          <cell>
+            0 20 <level id='3'/>0001 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='16'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <dagNodePos>
+              25828.4 24127.3 
+            </dagNodePos>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              LevelColumn 
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='17'>
+        
+        <status>
+          2 
+        </status>
+        <cells>
+          <cell>
+            0 20 <level id='3'/>0002 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='18'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <dagNodePos>
+              25828.4 24077.3 
+            </dagNodePos>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              LevelColumn 
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='19'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            0 20 <level id='4'/>0001 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='20'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <dagNodePos>
+              24909.9 24980.6 
+            </dagNodePos>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              "LevelColumn AffineFx"
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              1 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='21'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            0 5 <level id='5'/>0001 1 
+          </cell>
+          <cell>
+            5 8 <level id='5'/>0005 1 
+          </cell>
+          <cell>
+            13 7 <level id='5'/>0012 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='22'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <dagNodePos>
+              24897.9 25138.8 
+            </dagNodePos>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              "LevelColumn AffineFx"
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              1 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='23'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            0 5 <level id='6'/>0001 1 
+          </cell>
+          <cell>
+            5 14 <level id='6'/>0005 1 
+          </cell>
+          <cell>
+            19 1 <level id='6'/>0001 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='24'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <dagNodePos>
+              25107.1 25278.3 
+            </dagNodePos>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              "LevelColumn AffineFx"
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              1 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='25'>
+        
+        <status>
+          0 
+        </status>
+        <camerastand_opacity>
+          181 
+        </camerastand_opacity>
+        <cells>
+          <cell>
+            0 20 <level id='7'/>0001 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='26'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <dagNodePos>
+              24928.7 24460.4 
+            </dagNodePos>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              "LevelColumn AffineFx"
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              1 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='27'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            0 20 <level id='8'/>0001 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='28'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <dagNodePos>
+              24907.8 24618.1 
+            </dagNodePos>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              "LevelColumn AffineFx"
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              1 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      
+    </columns>
+    <pegbars>
+      <pegbar activeboth="yes" id="Camera1">
+        <parent handle="B" id="None" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          24500 25550 
+        </nodePos>
+        <camera>
+          <cameraSize>
+            5.8295 6.0809 
+          </cameraSize>
+          <cameraRes>
+            700 730 
+          </cameraRes>
+          <cameraXPrevalence>
+            1 
+          </cameraXPrevalence>
+          <interestRect>
+            0 0 -1 -1 
+          </interestRect>
+          </camera>
+        </pegbar>
+      <pegbar id="Table">
+        <parent handle="B" id="None" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          24329.7 25324.6 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Peg1">
+        <parent handle="B" id="Table" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <y>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <Ep lnk="no">
+              <prev>
+                0.197034 
+              </prev>
+              4 0.197034 5 
+            </Ep>
+            <Ep lnk="no">
+              <prev>
+                0.197034 0 
+              </prev>
+              5 0.197034 5 
+            </Ep>
+            <L lnk="no">
+              <prev>
+                0.00771771 -90 
+              </prev>
+              8 0.00771771 
+            </L>
+            <L lnk="no">
+              <prev>
+                0.00771771 
+              </prev>
+              11 0.00771771 
+            </L>
+            <L>
+              <prev>
+                0.129863 
+              </prev>
+              16 0.129863 
+            </L>
+            <L lnk="no">
+              <prev>
+                0.00771771 
+              </prev>
+              18 0.00771771 
+            </L>
+            </keyframes>
+          </y>
+        <z>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </z>
+        <so>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </so>
+        <sx>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sc>
+        <rot>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </rot>
+        <pos>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </pos>
+        <shx>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </shx>
+        <shy>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </shy>
+        <nodePos>
+          24442.1 25340.1 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col1">
+        <parent handle="B" id="Table" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          24208.1 25222.5 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col2">
+        <parent handle="B" id="Table" parentHandle="B">
+          </parent>
+        <isOpened>
+          1 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          24137.8 25360.7 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col3">
+        <parent handle="B" id="Col4" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0.0799626 1.06469 -0.0534444 -0.970358 
+        </center>
+        <status>
+          0 
+        </status>
+        <x>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0.0297358 
+            </L>
+            <Ep>
+              <prev>
+                0.0304117 
+              </prev>
+              4 0.0304117 5 
+            </Ep>
+            <Ep>
+              <prev>
+                0.0304117 0 
+              </prev>
+              5 0.0304117 5 
+            </Ep>
+            <L>
+              <prev>
+                0.348349 -90 
+              </prev>
+              9 0.348349 
+            </L>
+            <L>
+              <prev>
+                -0.00641891 
+              </prev>
+              12 -0.00641891 
+            </L>
+            </keyframes>
+          </x>
+        <y>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0.0928049 
+            </L>
+            <Ep>
+              <prev>
+                0.230974 
+              </prev>
+              4 0.230974 5 
+            </Ep>
+            <Ep>
+              <prev>
+                0.230974 0 
+              </prev>
+              5 0.230974 5 
+            </Ep>
+            <L>
+              <prev>
+                -0.102895 -90 
+              </prev>
+              9 -0.102895 
+            </L>
+            <L>
+              <prev>
+                0.0449247 
+              </prev>
+              12 0.0449247 
+            </L>
+            </keyframes>
+          </y>
+        <z>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </z>
+        <so>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </so>
+        <sx>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sc>
+        <rot>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <L>
+              <prev>
+                17 
+              </prev>
+              4 17 
+            </L>
+            <L>
+              <prev>
+                17 
+              </prev>
+              5 17 
+            </L>
+            <L>
+              <prev>
+                -52.2091 
+              </prev>
+              9 -52.2091 
+            </L>
+            <L>
+              <prev>
+                -8.46742 
+              </prev>
+              12 -8.46742 
+            </L>
+            <L>
+              <prev>
+                0.350818 
+              </prev>
+              16 0.350818 
+            </L>
+            </keyframes>
+          </rot>
+        <pos>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </pos>
+        <shx>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </shx>
+        <shy>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </shy>
+        <nodePos>
+          24603.8 25251.9 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col4">
+        <parent handle="B" id="Peg1" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          -0.249621 -1.164 0.249621 1.164 
+        </center>
+        <status>
+          0 
+        </status>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          24567.5 25319.8 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col5">
+        <parent handle="B" id="Peg1" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          -0.240565 -1.19137 0.240565 1.19137 
+        </center>
+        <status>
+          0 
+        </status>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          24605.5 25382.2 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col6">
+        <parent handle="B" id="Col4" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0.0868146 1.00026 -0.0868146 -1.00026 
+        </center>
+        <status>
+          0 
+        </status>
+        <x>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0.000200101 
+            </L>
+            <Ep>
+              <prev>
+                -0.0321782 
+              </prev>
+              4 -0.0321782 5 
+            </Ep>
+            <Ep>
+              <prev>
+                -0.0321782 0 
+              </prev>
+              5 -0.0321782 5 
+            </Ep>
+            <L>
+              <prev>
+                0.415498 -90 
+              </prev>
+              9 0.415498 
+            </L>
+            <L>
+              <prev>
+                -0.0205718 
+              </prev>
+              12 -0.0205718 
+            </L>
+            </keyframes>
+          </x>
+        <y>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 -0.000975696 
+            </L>
+            <L>
+              <prev>
+                0.22927 
+              </prev>
+              4 0.22927 
+            </L>
+            <L>
+              <prev>
+                0.22927 
+              </prev>
+              5 0.22927 
+            </L>
+            <L>
+              <prev>
+                -0.148638 
+              </prev>
+              9 -0.148638 
+            </L>
+            <L>
+              <prev>
+                -0.00820903 
+              </prev>
+              12 -0.00820903 
+            </L>
+            </keyframes>
+          </y>
+        <so>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </so>
+        <sx>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          <keyframes>
+            <L>
+              0 1 
+            </L>
+            </keyframes>
+          </sc>
+        <rot>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            <Ep>
+              <prev>
+                105.178 
+              </prev>
+              4 105.178 5 
+            </Ep>
+            <Ep>
+              <prev>
+                105.178 0 
+              </prev>
+              5 105.178 5 
+            </Ep>
+            <L>
+              <prev>
+                -37.9946 -90 
+              </prev>
+              9 -37.9946 
+            </L>
+            <L>
+              <prev>
+                -1.29748 
+              </prev>
+              12 -1.29748 
+            </L>
+            <L>
+              <prev>
+                -0.0365079 
+              </prev>
+              16 -0.0365079 
+            </L>
+            </keyframes>
+          </rot>
+        <pos>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </pos>
+        <shx>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </shx>
+        <shy>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0 
+            </L>
+            </keyframes>
+          </shy>
+        <nodePos>
+          24725 25234.5 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col7">
+        <parent handle="B" id="Col4" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0.0706444 1.0026 -0.0706444 -1.0026 
+        </center>
+        <status>
+          0 
+        </status>
+        <x>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0.00719518 
+            </L>
+            <Ep>
+              <prev>
+                -0.0294684 
+              </prev>
+              4 -0.0294684 5 
+            </Ep>
+            <Ep>
+              <prev>
+                -0.0294684 0 
+              </prev>
+              5 -0.0294684 5 
+            </Ep>
+            <L>
+              <prev>
+                0.402739 -90 
+              </prev>
+              9 0.402739 
+            </L>
+            <L>
+              <prev>
+                -0.0407215 
+              </prev>
+              12 -0.0407215 
+            </L>
+            </keyframes>
+          </x>
+        <y>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 0.00118876 
+            </L>
+            <L>
+              <prev>
+                0.216025 
+              </prev>
+              4 0.216025 
+            </L>
+            <L>
+              <prev>
+                0.216025 
+              </prev>
+              5 0.216025 
+            </L>
+            <L>
+              <prev>
+                -0.13162 
+              </prev>
+              9 -0.13162 
+            </L>
+            <L>
+              <prev>
+                -0.0429278 
+              </prev>
+              12 -0.0429278 
+            </L>
+            </keyframes>
+          </y>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <rot>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              0 -0.230555 
+            </L>
+            <Ep>
+              <prev>
+                67.4747 
+              </prev>
+              4 67.4747 5 
+            </Ep>
+            <Ep>
+              <prev>
+                67.4747 0 
+              </prev>
+              5 67.4747 5 
+            </Ep>
+            <L>
+              <prev>
+                -43.5301 -90 
+              </prev>
+              9 -43.5301 
+            </L>
+            <L>
+              <prev>
+                -25.0286 
+              </prev>
+              12 -25.0286 
+            </L>
+            <L>
+              <prev>
+                -0.235333 
+              </prev>
+              16 -0.235333 
+            </L>
+            </keyframes>
+          </rot>
+        <nodePos>
+          24725 25292.4 
+        </nodePos>
+        </pegbar>
+      <grid_dimension>
+        1 
+      </grid_dimension>
+      </pegbars>
+    <fxnodes>
+      <internal>
+        <fxnode>
+          <STD_inoMotionBlurFx id='29'>
+            
+            <params>
+              <depend_move>
+                0 
+              </depend_move>
+              <x1>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    4 0 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    9 0 
+                  </L>
+                  </keyframes>
+                </x1>
+              <y1>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    4 0 
+                  </L>
+                  <L>
+                    <prev>
+                      6.29921 
+                    </prev>
+                    5 6.29921 
+                  </L>
+                  <L>
+                    <prev>
+                      41.9947 
+                    </prev>
+                    7 41.9947 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    9 0 
+                  </L>
+                  </keyframes>
+                </y1>
+              <x2>
+                <default>
+                  0 
+                </default>
+                </x2>
+              <y2>
+                <default>
+                  0 
+                </default>
+                </y2>
+              <scale>
+                <default>
+                  1 
+                </default>
+                </scale>
+              <curve>
+                <default>
+                  1 
+                </default>
+                </curve>
+              <zanzo_length>
+                <default>
+                  0 
+                </default>
+                </zanzo_length>
+              <zanzo_power>
+                <default>
+                  1 
+                </default>
+                </zanzo_power>
+              <alpha_rendering>
+                1 1 
+              </alpha_rendering>
+              </params>
+            <ports>
+              <Source>
+                <Toonz_columnFx id='26'/>
+              </Source>
+              </ports>
+            <dagNodePos>
+              25048 24335.8 
+            </dagNodePos>
+            <numberId>
+              3 
+            </numberId>
+            <name>
+              MotionBlurIno03 
+            </name>
+            <fxId>
+              MotionBlurIno03 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </STD_inoMotionBlurFx>
+          
+        </fxnode>
+        <fxnode>
+          <STD_inoMotionBlurFx id='30'>
+            
+            <paramsLinkedTo>
+              <STD_inoMotionBlurFx id='29'/>
+            </paramsLinkedTo>
+            <ports>
+              <Source>
+                <Toonz_columnFx id='26'/>
+              </Source>
+              </ports>
+            <dagNodePos>
+              25052 24385.6 
+            </dagNodePos>
+            <numberId>
+              12 
+            </numberId>
+            <name>
+              MotionBlurIno03 
+            </name>
+            <fxId>
+              MotionBlurIno12 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </STD_inoMotionBlurFx>
+          
+        </fxnode>
+        <fxnode>
+          <STD_inoMotionBlurFx id='31'>
+            
+            <paramsLinkedTo>
+              <STD_inoMotionBlurFx id='29'/>
+            </paramsLinkedTo>
+            <ports>
+              <Source>
+                <Toonz_columnFx id='28'/>
+              </Source>
+              </ports>
+            <dagNodePos>
+              25063.4 24501.9 
+            </dagNodePos>
+            <numberId>
+              14 
+            </numberId>
+            <name>
+              MotionBlurIno03 
+            </name>
+            <fxId>
+              MotionBlurIno14 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </STD_inoMotionBlurFx>
+          
+        </fxnode>
+        <fxnode>
+          <STD_inoMotionBlurFx id='32'>
+            
+            <params>
+              <depend_move>
+                0 
+              </depend_move>
+              <x1>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    4 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -6.29921 
+                    </prev>
+                    5 -6.29921 
+                  </L>
+                  <L>
+                    <prev>
+                      -16.378 
+                    </prev>
+                    7 -16.378 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    10 0 
+                  </L>
+                  </keyframes>
+                </x1>
+              <y1>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    4 0 
+                  </L>
+                  <L>
+                    <prev>
+                      2.09974 
+                    </prev>
+                    5 2.09974 
+                  </L>
+                  <L>
+                    <prev>
+                      8.39895 
+                    </prev>
+                    7 8.39895 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    10 0 
+                  </L>
+                  </keyframes>
+                </y1>
+              <x2>
+                <default>
+                  1 
+                </default>
+                </x2>
+              <y2>
+                <default>
+                  1 
+                </default>
+                </y2>
+              <scale>
+                <default>
+                  1 
+                </default>
+                </scale>
+              <curve>
+                <default>
+                  1 
+                </default>
+                </curve>
+              <zanzo_length>
+                <default>
+                  0 
+                </default>
+                </zanzo_length>
+              <zanzo_power>
+                <default>
+                  1 
+                </default>
+                </zanzo_power>
+              <alpha_rendering>
+                1 1 
+              </alpha_rendering>
+              </params>
+            <ports>
+              <Source>
+                <Toonz_columnFx id='20'/>
+              </Source>
+              </ports>
+            <dagNodePos>
+              25015.4 24888.7 
+            </dagNodePos>
+            <numberId>
+              17 
+            </numberId>
+            <name>
+              MotionBlurIno17 
+            </name>
+            <fxId>
+              MotionBlurIno17 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </STD_inoMotionBlurFx>
+          
+        </fxnode>
+        <fxnode>
+          <STD_inoMotionBlurFx id='33'>
+            
+            <paramsLinkedTo>
+              <STD_inoMotionBlurFx id='29'/>
+            </paramsLinkedTo>
+            <ports>
+              <Source>
+                <Toonz_columnFx id='28'/>
+              </Source>
+              </ports>
+            <dagNodePos>
+              25068 24551.9 
+            </dagNodePos>
+            <numberId>
+              23 
+            </numberId>
+            <name>
+              MotionBlurIno03 
+            </name>
+            <fxId>
+              MotionBlurIno23 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </STD_inoMotionBlurFx>
+          
+        </fxnode>
+        <fxnode>
+          <STD_inoMotionBlurFx id='34'>
+            
+            <params>
+              <depend_move>
+                0 
+              </depend_move>
+              <x1>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    4 0 
+                  </L>
+                  <L>
+                    <prev>
+                      -4.19947 
+                    </prev>
+                    5 -4.19947 
+                  </L>
+                  <L>
+                    <prev>
+                      -4.19947 
+                    </prev>
+                    7 -4.19947 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    10 0 
+                  </L>
+                  </keyframes>
+                </x1>
+              <y1>
+                <default>
+                  0 
+                </default>
+                <keyframes>
+                  <L>
+                    4 0 
+                  </L>
+                  <L>
+                    <prev>
+                      20.9974 
+                    </prev>
+                    5 20.9974 
+                  </L>
+                  <L>
+                    <prev>
+                      14.6982 
+                    </prev>
+                    7 14.6982 
+                  </L>
+                  <L>
+                    <prev>
+                      0 
+                    </prev>
+                    10 0 
+                  </L>
+                  </keyframes>
+                </y1>
+              <x2>
+                <default>
+                  1 
+                </default>
+                </x2>
+              <y2>
+                <default>
+                  1 
+                </default>
+                </y2>
+              <scale>
+                <default>
+                  1 
+                </default>
+                </scale>
+              <curve>
+                <default>
+                  1 
+                </default>
+                </curve>
+              <zanzo_length>
+                <default>
+                  0 
+                </default>
+                </zanzo_length>
+              <zanzo_power>
+                <default>
+                  1 
+                </default>
+                </zanzo_power>
+              <alpha_rendering>
+                1 1 
+              </alpha_rendering>
+              </params>
+            <ports>
+              <Source>
+                <Toonz_columnFx id='22'/>
+              </Source>
+              </ports>
+            <dagNodePos>
+              25000.4 25027.5 
+            </dagNodePos>
+            <numberId>
+              22 
+            </numberId>
+            <name>
+              MotionBlurIno17 
+            </name>
+            <fxId>
+              MotionBlurIno22 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </STD_inoMotionBlurFx>
+          
+        </fxnode>
+        </internal>
+      <terminal>
+        <fxnode>
+          <Toonz_columnFx id='22'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='18'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='16'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='20'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='24'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='26'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='28'/>
+        </fxnode>
+        <fxnode>
+          <STD_inoMotionBlurFx id='29'/>
+        </fxnode>
+        <fxnode>
+          <STD_inoMotionBlurFx id='30'/>
+        </fxnode>
+        <fxnode>
+          <STD_inoMotionBlurFx id='31'/>
+        </fxnode>
+        <fxnode>
+          <STD_inoMotionBlurFx id='32'/>
+        </fxnode>
+        <fxnode>
+          <STD_inoMotionBlurFx id='34'/>
+        </fxnode>
+        </terminal>
+      <xsheet>
+        <Toonz_xsheetFx id='35'>
+          
+          <params>
+            </params>
+          <ports>
+            </ports>
+          <dagNodePos>
+            25400.2 24857.7 
+          </dagNodePos>
+          <numberId>
+            0 
+          </numberId>
+          <name>
+            Xsheet 
+          </name>
+          <fxId>
+            "" 
+          </fxId>
+          <opened>
+            0 
+          </opened>
+          
+        </Toonz_xsheetFx>
+        
+      </xsheet>
+      <output>
+        <Toonz_outputFx id='36'>
+          
+          <params>
+            </params>
+          <ports>
+            <source>
+              <Toonz_xsheetFx id='35'/>
+            </source>
+            </ports>
+          <dagNodePos>
+            25610.2 24792.5 
+          </dagNodePos>
+          <numberId>
+            0 
+          </numberId>
+          <name>
+            OutputFx 
+          </name>
+          <fxId>
+            "" 
+          </fxId>
+          <opened>
+            0 
+          </opened>
+          
+        </Toonz_outputFx>
+        
+      </output>
+      <grid_dimension>
+        1 
+      </grid_dimension>
+      </fxnodes>
+    </xsheet>
+  <history>
+    "| #    DATE:       Time:   MACHINE:    USER:           |"
+    "| #1   15 Dec 20   17:46   PRATIK      Administrator   |"
+    "| #2   20 Dec 20   21:40   PRATIK      Administrator   |"
+    "| #3   20 Dec 20   22:22   PRATIK      Administrator   |"
+    "| #4   21 Dec 20   11:13   PRATIK      Administrator   |"
+    "| #5   21 Dec 20   12:08   PRATIK      Administrator   |"
+    "| #6   21 Dec 20   13:23   PRATIK      Administrator   |"
+    "| #7   22 Dec 20   14:29   PRATIK      Administrator   |"
+  </history>
+  </tnz>
