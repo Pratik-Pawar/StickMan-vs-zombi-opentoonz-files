@@ -1,16 +1,18 @@
 @echo off
+
+echo Staging file: & echo.
 git add .
-echo .
-echo "Stage file completed"
+echo ********* Staging Completed ********* & echo.
+
+echo Commiting: 
 echo.
 set /p mes="Enter commit Message: "
 echo.
 git commit -m "%mes%"
-echo .
-echo commit completed"
-echo.
+echo ********* Commit  Completed ********* & echo.
+
+echo Pushing to remot: & echo.
 git push origin main
-echo .
-echo "push completed"
-echo.
+echo ********* Pushing Completed ********* & echo.
+
 pause
