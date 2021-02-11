@@ -1162,7 +1162,7 @@
     </levels>
     <folder name="Cast" type="default">
       <levels>
-        <childLevel id='12'/><childLevel id='24'/><childLevel id='18'/><level id='30'/><level id='9'/><level id='10'/><level id='8'/><level id='3'/><level id='32'/><level id='2'/><level id='5'/><level id='31'/><level id='1'/><level id='4'/><level id='7'/><level id='6'/><level id='11'/>
+        <level id='10'/><level id='4'/><level id='11'/><level id='1'/><level id='8'/><level id='31'/><level id='2'/><level id='7'/><level id='30'/><level id='32'/><level id='9'/><level id='3'/><level id='5'/><level id='6'/><childLevel id='24'/><childLevel id='18'/><childLevel id='12'/>
       </levels>
       </folder>
     <folder name="Audio">
@@ -3986,9 +3986,9 @@
             </L>
             <L>
               <prev>
-                -179.532 
+                -6.42306 
               </prev>
-              29 -179.532 
+              29 -6.42306 
             </L>
             </keyframes>
           </rot>
@@ -5125,55 +5125,55 @@
         </internal>
       <terminal>
         <fxnode>
-          <Toonz_columnFx id='34'/>
-        </fxnode>
-        <fxnode>
-          <Toonz_columnFx id='36'/>
-        </fxnode>
-        <fxnode>
-          <Toonz_columnFx id='40'/>
-        </fxnode>
-        <fxnode>
-          <Toonz_columnFx id='42'/>
-        </fxnode>
-        <fxnode>
-          <Toonz_columnFx id='44'/>
-        </fxnode>
-        <fxnode>
-          <Toonz_columnFx id='46'/>
-        </fxnode>
-        <fxnode>
-          <Toonz_columnFx id='50'/>
-        </fxnode>
-        <fxnode>
-          <Toonz_columnFx id='48'/>
-        </fxnode>
-        <fxnode>
-          <Toonz_columnFx id='38'/>
-        </fxnode>
-        <fxnode>
-          <Toonz_columnFx id='60'/>
+          <Toonz_columnFx id='58'/>
         </fxnode>
         <fxnode>
           <Toonz_columnFx id='52'/>
         </fxnode>
         <fxnode>
-          <Toonz_columnFx id='54'/>
-        </fxnode>
-        <fxnode>
-          <Toonz_columnFx id='58'/>
-        </fxnode>
-        <fxnode>
-          <Toonz_columnFx id='64'/>
-        </fxnode>
-        <fxnode>
-          <Toonz_columnFx id='66'/>
+          <Toonz_columnFx id='42'/>
         </fxnode>
         <fxnode>
           <Toonz_columnFx id='56'/>
         </fxnode>
         <fxnode>
+          <Toonz_columnFx id='50'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='34'/>
+        </fxnode>
+        <fxnode>
           <Toonz_columnFx id='62'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='38'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='54'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='64'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='40'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='44'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='66'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='46'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='48'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='60'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='36'/>
         </fxnode>
         </terminal>
       <xsheet>
@@ -5230,5 +5230,6 @@
     "| #13  01 Feb 21   19:31   PRATIK      Administrator   |"
     "| #14  07 Feb 21   13:46   PRATIK      Administrator   |"
     "| #15  11 Feb 21   14:32   PRATIK      Administrator   |"
+    "| #16  11 Feb 21   16:49   PRATIK      Administrator   |"
   </history>
   </tnz>
