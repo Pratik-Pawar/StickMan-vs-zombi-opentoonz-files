@@ -13,7 +13,7 @@ git commit -m "%mes%"
 echo.
 echo ********* Commit  Completed ********* & echo.
 
-echo Pushing to remot: & echo.
+echo Pushing to Remote: & echo.
 git push origin main
 echo.
 echo ********* Pushing Completed ********* & echo.
