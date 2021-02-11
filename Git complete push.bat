@@ -1,3 +1,4 @@
+@echo off
 git add .
 set /p mes="Enter commit Message: "
 git commit -m "%mes%"
