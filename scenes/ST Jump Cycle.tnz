@@ -1,4 +1,4 @@
-<tnz framecount="48" version="71.0">
+<tnz framecount="30" version="71.0">
   <generator>
     "OpenToonz 1.4"
   </generator>
@@ -6,10 +6,10 @@
     <cameras>
       <camera>
         <cameraSize>
-          6.82884 22.7409 
+          6.82884 6.0809 
         </cameraSize>
         <cameraRes>
-          820 2730 
+          820 730 
         </cameraRes>
         <cameraXPrevalence>
           1 
@@ -22,13 +22,13 @@
     <outputs>
       <output name="main">
         <range>
-          0 0 
+          24 29 
         </range>
         <step>
           1 
         </step>
         <shrink>
-          1 
+          3 
         </shrink>
         <applyShrinkToViewer>
           0 
@@ -37,7 +37,7 @@
           24 
         </fps>
         <path>
-          "+outputs\\Walking Rest.spritesheet"
+          "+outputs\\ST Landing.spritesheet"
         </path>
         <bpp>
           64 
@@ -131,7 +131,7 @@
         </output>
       <output name="preview">
         <range>
-          0 47 
+          0 29 
         </range>
         <step>
           1 
@@ -908,7 +908,7 @@
     </levels>
     <folder name="Cast" type="default">
       <levels>
-        <childLevel id='18'/><childLevel id='12'/><level id='10'/><level id='11'/><level id='4'/><level id='5'/><level id='3'/><level id='6'/><level id='7'/><level id='1'/><level id='8'/><level id='2'/><level id='9'/><level id='24'/>
+        <childLevel id='18'/><childLevel id='12'/><level id='9'/><level id='2'/><level id='4'/><level id='11'/><level id='1'/><level id='3'/><level id='6'/><level id='8'/><level id='24'/><level id='10'/><level id='7'/><level id='5'/>
       </levels>
       </folder>
     <folder name="Audio">
@@ -923,7 +923,7 @@
         </status>
         <cells>
           <cell>
-            0 48 <level id='24'/>0001 0 
+            0 30 <level id='24'/>0001 0 
           </cell>
           </cells>
         <fx>
@@ -961,7 +961,7 @@
         </status>
         <cells>
           <cell>
-            0 48 <level id='8'/>0001 0 
+            0 30 <level id='8'/>0001 0 
           </cell>
           </cells>
         <fx>
@@ -999,7 +999,7 @@
         </status>
         <cells>
           <cell>
-            0 48 <level id='8'/>0002 0 
+            0 30 <level id='8'/>0002 0 
           </cell>
           </cells>
         <fx>
@@ -1037,7 +1037,7 @@
         </status>
         <cells>
           <cell>
-            0 48 <level id='8'/>0003 0 
+            0 30 <level id='8'/>0003 0 
           </cell>
           </cells>
         <fx>
@@ -1075,7 +1075,7 @@
         </status>
         <cells>
           <cell>
-            0 48 <level id='8'/>0004 0 
+            0 30 <level id='8'/>0004 0 
           </cell>
           </cells>
         <fx>
@@ -1113,7 +1113,7 @@
         </status>
         <cells>
           <cell>
-            0 48 <level id='5'/>0001 0 
+            0 30 <level id='5'/>0001 0 
           </cell>
           </cells>
         <fx>
@@ -1151,7 +1151,7 @@
         </status>
         <cells>
           <cell>
-            0 48 <level id='5'/>0002 0 
+            0 30 <level id='5'/>0002 0 
           </cell>
           </cells>
         <fx>
@@ -1189,7 +1189,7 @@
         </status>
         <cells>
           <cell>
-            0 48 <level id='4'/>0001 0 
+            0 30 <level id='4'/>0001 0 
           </cell>
           </cells>
         <fx>
@@ -1227,7 +1227,7 @@
         </status>
         <cells>
           <cell>
-            0 48 <level id='4'/>0002 0 
+            0 30 <level id='4'/>0002 0 
           </cell>
           </cells>
         <fx>
@@ -1265,7 +1265,7 @@
         </status>
         <cells>
           <cell>
-            0 48 <level id='6'/>0001 0 
+            0 30 <level id='6'/>0001 0 
           </cell>
           </cells>
         <fx>
@@ -1303,7 +1303,7 @@
         </status>
         <cells>
           <cell>
-            0 48 <level id='6'/>0002 0 
+            0 30 <level id='6'/>0002 0 
           </cell>
           </cells>
         <fx>
@@ -1341,7 +1341,7 @@
         </status>
         <cells>
           <cell>
-            0 48 <level id='2'/>0001 0 
+            0 30 <level id='2'/>0001 0 
           </cell>
           </cells>
         <fx>
@@ -1379,7 +1379,7 @@
         </status>
         <cells>
           <cell>
-            0 48 <level id='9'/>0002 0 
+            0 30 <level id='9'/>0002 0 
           </cell>
           </cells>
         <fx>
@@ -1417,7 +1417,7 @@
         </status>
         <cells>
           <cell>
-            0 48 <level id='9'/>0004 0 
+            0 30 <level id='9'/>0004 0 
           </cell>
           </cells>
         <fx>
@@ -1455,7 +1455,7 @@
         </status>
         <cells>
           <cell>
-            0 48 <level id='9'/>0005 0 
+            0 30 <level id='9'/>0005 0 
           </cell>
           </cells>
         <fx>
@@ -1493,7 +1493,7 @@
         </status>
         <cells>
           <cell>
-            0 48 <level id='9'/>0006 0 
+            0 30 <level id='9'/>0006 0 
           </cell>
           </cells>
         <fx>
@@ -1559,7 +1559,7 @@
         </nodePos>
         </pegbar>
       <pegbar activeboth="yes" id="Camera1">
-        <parent handle="B" id="None" parentHandle="B">
+        <parent handle="B" id="None" parentHandle="">
           </parent>
         <isOpened>
           0 
@@ -1570,30 +1570,127 @@
         <status>
           0 
         </status>
+        <y>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <Ep>
+              6 0 0 
+            </Ep>
+            <Ep lnk="no">
+              <prev>
+                3.21711 -100 
+              </prev>
+              15 3.21711 100 
+            </Ep>
+            <L lnk="no">
+              <prev>
+                0 0 
+              </prev>
+              24 0 
+            </L>
+            </keyframes>
+          </y>
+        <z>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              6 0 
+            </L>
+            </keyframes>
+          </z>
+        <so>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              6 0 
+            </L>
+            </keyframes>
+          </so>
         <sx>
           <default>
             1 
           </default>
+          <keyframes>
+            <L>
+              6 1 
+            </L>
+            </keyframes>
           </sx>
         <sy>
           <default>
             1 
           </default>
+          <keyframes>
+            <L>
+              6 1 
+            </L>
+            </keyframes>
           </sy>
         <sc>
           <default>
             1 
           </default>
+          <keyframes>
+            <L>
+              6 1 
+            </L>
+            </keyframes>
           </sc>
+        <rot>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              6 0 
+            </L>
+            </keyframes>
+          </rot>
+        <pos>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              6 0 
+            </L>
+            </keyframes>
+          </pos>
+        <shx>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              6 0 
+            </L>
+            </keyframes>
+          </shx>
+        <shy>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              6 0 
+            </L>
+            </keyframes>
+          </shy>
         <nodePos>
-          23729.2 24965.8 
+          24450.1 25371 
         </nodePos>
         <camera>
           <cameraSize>
-            6.82884 22.7409 
+            6.82884 6.0809 
           </cameraSize>
           <cameraRes>
-            820 2730 
+            820 730 
           </cameraRes>
           <cameraXPrevalence>
             1 
@@ -1752,6 +1849,12 @@
             <L>
               0 0 
             </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
+            </L>
             </keyframes>
           </x>
         <y>
@@ -1761,6 +1864,12 @@
           <keyframes>
             <L>
               0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </y>
@@ -1772,6 +1881,12 @@
             <L>
               0 0 
             </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
+            </L>
             </keyframes>
           </z>
         <so>
@@ -1781,6 +1896,12 @@
           <keyframes>
             <L>
               0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </so>
@@ -1792,6 +1913,12 @@
             <L>
               0 1 
             </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              29 1 
+            </L>
             </keyframes>
           </sx>
         <sy>
@@ -1802,6 +1929,12 @@
             <L>
               0 1 
             </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              29 1 
+            </L>
             </keyframes>
           </sy>
         <sc>
@@ -1811,6 +1944,12 @@
           <keyframes>
             <L>
               0 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              29 1 
             </L>
             </keyframes>
           </sc>
@@ -1834,6 +1973,36 @@
               </prev>
               6 0.685688 
             </L>
+            <L>
+              <prev>
+                -7.74668 
+              </prev>
+              12 -7.74668 
+            </L>
+            <L>
+              <prev>
+                7.99798 
+              </prev>
+              18 7.99798 
+            </L>
+            <L>
+              <prev>
+                0.685688 
+              </prev>
+              24 0.685688 
+            </L>
+            <L>
+              <prev>
+                53.2738 
+              </prev>
+              26 53.2738 
+            </L>
+            <L>
+              <prev>
+                19.6611 
+              </prev>
+              29 19.6611 
+            </L>
             </keyframes>
           </rot>
         <pos>
@@ -1843,6 +2012,12 @@
           <keyframes>
             <L>
               0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </pos>
@@ -1854,6 +2029,12 @@
             <L>
               0 0 
             </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
+            </L>
             </keyframes>
           </shx>
         <shy>
@@ -1863,6 +2044,12 @@
           <keyframes>
             <L>
               0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </shy>
@@ -1893,6 +2080,12 @@
             <L>
               0 0 
             </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
+            </L>
             </keyframes>
           </x>
         <y>
@@ -1902,6 +2095,12 @@
           <keyframes>
             <L>
               0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </y>
@@ -1913,6 +2112,12 @@
             <L>
               0 0 
             </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
+            </L>
             </keyframes>
           </z>
         <so>
@@ -1922,6 +2127,12 @@
           <keyframes>
             <L>
               0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </so>
@@ -1933,6 +2144,12 @@
             <L>
               0 1 
             </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              29 1 
+            </L>
             </keyframes>
           </sx>
         <sy>
@@ -1943,6 +2160,12 @@
             <L>
               0 1 
             </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              29 1 
+            </L>
             </keyframes>
           </sy>
         <sc>
@@ -1952,6 +2175,12 @@
           <keyframes>
             <L>
               0 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              29 1 
             </L>
             </keyframes>
           </sc>
@@ -1975,6 +2204,36 @@
               </prev>
               6 31.4081 
             </L>
+            <L>
+              <prev>
+                47.8101 
+              </prev>
+              12 47.8101 
+            </L>
+            <L>
+              <prev>
+                31.4081 
+              </prev>
+              18 31.4081 
+            </L>
+            <L>
+              <prev>
+                31.4081 
+              </prev>
+              24 31.4081 
+            </L>
+            <L>
+              <prev>
+                -57.537 
+              </prev>
+              26 -57.537 
+            </L>
+            <L>
+              <prev>
+                4.84436 
+              </prev>
+              29 4.84436 
+            </L>
             </keyframes>
           </rot>
         <pos>
@@ -1984,6 +2243,12 @@
           <keyframes>
             <L>
               0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </pos>
@@ -1995,6 +2260,12 @@
             <L>
               0 0 
             </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
+            </L>
             </keyframes>
           </shx>
         <shy>
@@ -2004,6 +2275,12 @@
           <keyframes>
             <L>
               0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </shy>
@@ -2034,6 +2311,12 @@
             <L>
               0 0 
             </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
+            </L>
             </keyframes>
           </x>
         <y>
@@ -2043,6 +2326,12 @@
           <keyframes>
             <L>
               0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </y>
@@ -2054,6 +2343,12 @@
             <L>
               0 0 
             </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
+            </L>
             </keyframes>
           </z>
         <so>
@@ -2063,6 +2358,12 @@
           <keyframes>
             <L>
               0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </so>
@@ -2074,6 +2375,12 @@
             <L>
               0 1 
             </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              29 1 
+            </L>
             </keyframes>
           </sx>
         <sy>
@@ -2084,6 +2391,12 @@
             <L>
               0 1 
             </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              29 1 
+            </L>
             </keyframes>
           </sy>
         <sc>
@@ -2093,6 +2406,12 @@
           <keyframes>
             <L>
               0 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              29 1 
             </L>
             </keyframes>
           </sc>
@@ -2116,6 +2435,36 @@
               </prev>
               6 -47.5673 
             </L>
+            <L>
+              <prev>
+                -70.1541 
+              </prev>
+              12 -70.1541 
+            </L>
+            <L>
+              <prev>
+                -47.5673 
+              </prev>
+              18 -47.5673 
+            </L>
+            <L>
+              <prev>
+                -47.5673 
+              </prev>
+              24 -47.5673 
+            </L>
+            <L>
+              <prev>
+                23.1376 
+              </prev>
+              26 23.1376 
+            </L>
+            <L>
+              <prev>
+                -1.24645 
+              </prev>
+              29 -1.24645 
+            </L>
             </keyframes>
           </rot>
         <pos>
@@ -2125,6 +2474,12 @@
           <keyframes>
             <L>
               0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </pos>
@@ -2136,6 +2491,12 @@
             <L>
               0 0 
             </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
+            </L>
             </keyframes>
           </shx>
         <shy>
@@ -2145,6 +2506,12 @@
           <keyframes>
             <L>
               0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </shy>
@@ -2175,6 +2542,12 @@
             <L>
               0 0 
             </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
+            </L>
             </keyframes>
           </x>
         <y>
@@ -2184,6 +2557,12 @@
           <keyframes>
             <L>
               0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </y>
@@ -2195,6 +2574,12 @@
             <L>
               0 0 
             </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
+            </L>
             </keyframes>
           </z>
         <so>
@@ -2204,6 +2589,12 @@
           <keyframes>
             <L>
               0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </so>
@@ -2215,6 +2606,12 @@
             <L>
               0 1 
             </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              29 1 
+            </L>
             </keyframes>
           </sx>
         <sy>
@@ -2225,6 +2622,12 @@
             <L>
               0 1 
             </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              29 1 
+            </L>
             </keyframes>
           </sy>
         <sc>
@@ -2234,6 +2637,12 @@
           <keyframes>
             <L>
               0 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              29 1 
             </L>
             </keyframes>
           </sc>
@@ -2251,6 +2660,18 @@
               </prev>
               4 -13.3289 
             </L>
+            <L>
+              <prev>
+                -13.3289 
+              </prev>
+              26 -13.3289 
+            </L>
+            <L>
+              <prev>
+                -5.01499 
+              </prev>
+              29 -5.01499 
+            </L>
             </keyframes>
           </rot>
         <pos>
@@ -2260,6 +2681,12 @@
           <keyframes>
             <L>
               0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </pos>
@@ -2271,6 +2698,12 @@
             <L>
               0 0 
             </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
+            </L>
             </keyframes>
           </shx>
         <shy>
@@ -2280,6 +2713,12 @@
           <keyframes>
             <L>
               0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </shy>
@@ -2316,6 +2755,18 @@
               </prev>
               4 0.00845565 
             </L>
+            <L>
+              <prev>
+                0.00845565 
+              </prev>
+              26 0.00845565 
+            </L>
+            <L>
+              <prev>
+                0.00845565 
+              </prev>
+              29 0.00845565 
+            </L>
             </keyframes>
           </x>
         <y>
@@ -2331,6 +2782,18 @@
                 0.0553841 
               </prev>
               4 0.0553841 
+            </L>
+            <L>
+              <prev>
+                0.0553841 
+              </prev>
+              26 0.0553841 
+            </L>
+            <L>
+              <prev>
+                0.0553841 
+              </prev>
+              29 0.0553841 
             </L>
             </keyframes>
           </y>
@@ -2348,6 +2811,18 @@
               </prev>
               4 0 
             </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              26 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
+            </L>
             </keyframes>
           </z>
         <so>
@@ -2363,6 +2838,18 @@
                 0 
               </prev>
               4 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              26 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </so>
@@ -2380,6 +2867,18 @@
               </prev>
               4 1 
             </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              26 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              29 1 
+            </L>
             </keyframes>
           </sx>
         <sy>
@@ -2396,6 +2895,18 @@
               </prev>
               4 1 
             </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              26 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              29 1 
+            </L>
             </keyframes>
           </sy>
         <sc>
@@ -2411,6 +2922,18 @@
                 1 
               </prev>
               4 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              26 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              29 1 
             </L>
             </keyframes>
           </sc>
@@ -2434,6 +2957,36 @@
               </prev>
               6 -104.172 
             </L>
+            <L>
+              <prev>
+                -86.5607 
+              </prev>
+              12 -86.5607 
+            </L>
+            <L>
+              <prev>
+                -116.609 
+              </prev>
+              18 -116.609 
+            </L>
+            <L>
+              <prev>
+                -104.172 
+              </prev>
+              24 -104.172 
+            </L>
+            <L>
+              <prev>
+                -132.261 
+              </prev>
+              26 -132.261 
+            </L>
+            <L>
+              <prev>
+                -103.703 
+              </prev>
+              29 -103.703 
+            </L>
             </keyframes>
           </rot>
         <pos>
@@ -2449,6 +3002,18 @@
                 0 
               </prev>
               4 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              26 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </pos>
@@ -2466,6 +3031,18 @@
               </prev>
               4 0 
             </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              26 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
+            </L>
             </keyframes>
           </shx>
         <shy>
@@ -2481,6 +3058,18 @@
                 0 
               </prev>
               4 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              26 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </shy>
@@ -2511,6 +3100,12 @@
             <L>
               0 0.0121089 
             </L>
+            <L>
+              <prev>
+                0.0121089 
+              </prev>
+              29 0.0121089 
+            </L>
             </keyframes>
           </x>
         <y>
@@ -2520,6 +3115,12 @@
           <keyframes>
             <L>
               0 0.0199115 
+            </L>
+            <L>
+              <prev>
+                0.0199115 
+              </prev>
+              29 0.0199115 
             </L>
             </keyframes>
           </y>
@@ -2531,6 +3132,12 @@
             <L>
               0 0 
             </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
+            </L>
             </keyframes>
           </z>
         <so>
@@ -2540,6 +3147,12 @@
           <keyframes>
             <L>
               0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </so>
@@ -2551,6 +3164,12 @@
             <L>
               0 0.922986 
             </L>
+            <L>
+              <prev>
+                0.922986 
+              </prev>
+              29 0.922986 
+            </L>
             </keyframes>
           </sx>
         <sy>
@@ -2561,6 +3180,12 @@
             <L>
               0 1.08344 
             </L>
+            <L>
+              <prev>
+                1.08344 
+              </prev>
+              29 1.08344 
+            </L>
             </keyframes>
           </sy>
         <sc>
@@ -2570,6 +3195,12 @@
           <keyframes>
             <L>
               0 1.11496 
+            </L>
+            <L>
+              <prev>
+                1.11496 
+              </prev>
+              29 1.11496 
             </L>
             </keyframes>
           </sc>
@@ -2593,6 +3224,36 @@
               </prev>
               6 69.7898 
             </L>
+            <L>
+              <prev>
+                56.7839 
+              </prev>
+              12 56.7839 
+            </L>
+            <L>
+              <prev>
+                70.6039 
+              </prev>
+              18 70.6039 
+            </L>
+            <L>
+              <prev>
+                69.7898 
+              </prev>
+              24 69.7898 
+            </L>
+            <L>
+              <prev>
+                77.0155 
+              </prev>
+              26 77.0155 
+            </L>
+            <L>
+              <prev>
+                91.5185 
+              </prev>
+              29 91.5185 
+            </L>
             </keyframes>
           </rot>
         <pos>
@@ -2602,6 +3263,12 @@
           <keyframes>
             <L>
               0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </pos>
@@ -2613,6 +3280,12 @@
             <L>
               0 0 
             </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
+            </L>
             </keyframes>
           </shx>
         <shy>
@@ -2622,6 +3295,12 @@
           <keyframes>
             <L>
               0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </shy>
@@ -2657,6 +3336,12 @@
             <L>
               0 -0.183747 
             </L>
+            <L>
+              <prev>
+                -0.183747 
+              </prev>
+              29 -0.183747 
+            </L>
             </keyframes>
           </x>
         <y>
@@ -2666,6 +3351,12 @@
           <keyframes>
             <L>
               0 -0.2476 
+            </L>
+            <L>
+              <prev>
+                -0.2476 
+              </prev>
+              29 -0.2476 
             </L>
             </keyframes>
           </y>
@@ -2677,6 +3368,12 @@
             <L>
               0 0 
             </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
+            </L>
             </keyframes>
           </z>
         <so>
@@ -2686,6 +3383,12 @@
           <keyframes>
             <L>
               0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </so>
@@ -2697,6 +3400,12 @@
             <L>
               0 1 
             </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              29 1 
+            </L>
             </keyframes>
           </sx>
         <sy>
@@ -2707,6 +3416,12 @@
             <L>
               0 1 
             </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              29 1 
+            </L>
             </keyframes>
           </sy>
         <sc>
@@ -2716,6 +3431,12 @@
           <keyframes>
             <L>
               0 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              29 1 
             </L>
             </keyframes>
           </sc>
@@ -2729,15 +3450,51 @@
             </L>
             <L>
               <prev>
-                8.19426 
+                -18.3838 
               </prev>
-              4 8.19426 
+              4 -18.3838 
             </L>
             <L>
               <prev>
                 33.7818 
               </prev>
               6 33.7818 
+            </L>
+            <L>
+              <prev>
+                26.7009 
+              </prev>
+              9 26.7009 
+            </L>
+            <L>
+              <prev>
+                33.7465 
+              </prev>
+              15 33.7465 
+            </L>
+            <L>
+              <prev>
+                27.3953 
+              </prev>
+              21 27.3953 
+            </L>
+            <L>
+              <prev>
+                33.7818 
+              </prev>
+              24 33.7818 
+            </L>
+            <L>
+              <prev>
+                8.19426 
+              </prev>
+              26 8.19426 
+            </L>
+            <L>
+              <prev>
+                30.6207 
+              </prev>
+              29 30.6207 
             </L>
             </keyframes>
           </rot>
@@ -2749,6 +3506,12 @@
             <L>
               0 0 
             </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
+            </L>
             </keyframes>
           </pos>
         <shx>
@@ -2759,6 +3522,12 @@
             <L>
               0 0 
             </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
+            </L>
             </keyframes>
           </shx>
         <shy>
@@ -2768,6 +3537,12 @@
           <keyframes>
             <L>
               0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </shy>
@@ -2822,6 +3597,18 @@
               </prev>
               24 0.380145 
             </L>
+            <L>
+              <prev>
+                0.380145 
+              </prev>
+              26 0.380145 
+            </L>
+            <L>
+              <prev>
+                0.200781 
+              </prev>
+              29 0.200781 
+            </L>
             </keyframes>
           </x>
         <y>
@@ -2856,6 +3643,18 @@
               </prev>
               24 0.0410399 
             </L>
+            <L>
+              <prev>
+                -1.0877 
+              </prev>
+              26 -1.0877 
+            </L>
+            <L>
+              <prev>
+                -0.513979 
+              </prev>
+              29 -0.513979 
+            </L>
             </keyframes>
           </y>
         <z>
@@ -2865,6 +3664,12 @@
           <keyframes>
             <L>
               0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </z>
@@ -2876,6 +3681,12 @@
             <L>
               0 0 
             </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
+            </L>
             </keyframes>
           </so>
         <sx>
@@ -2885,6 +3696,12 @@
           <keyframes>
             <L>
               0 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              29 1 
             </L>
             </keyframes>
           </sx>
@@ -2896,6 +3713,12 @@
             <L>
               0 1 
             </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              29 1 
+            </L>
             </keyframes>
           </sy>
         <sc>
@@ -2905,6 +3728,12 @@
           <keyframes>
             <L>
               0 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              29 1 
             </L>
             </keyframes>
           </sc>
@@ -2934,6 +3763,18 @@
               </prev>
               24 -15.7392 
             </L>
+            <L>
+              <prev>
+                -10.8287 
+              </prev>
+              26 -10.8287 
+            </L>
+            <L>
+              <prev>
+                -15.7392 
+              </prev>
+              29 -15.7392 
+            </L>
             </keyframes>
           </rot>
         <pos>
@@ -2943,6 +3784,12 @@
           <keyframes>
             <L>
               0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </pos>
@@ -2954,6 +3801,12 @@
             <L>
               0 0 
             </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
+            </L>
             </keyframes>
           </shx>
         <shy>
@@ -2964,10 +3817,16 @@
             <L>
               0 0 
             </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
+            </L>
             </keyframes>
           </shy>
         <nodePos>
-          24472.1 25402.8 
+          24257.9 25416.1 
         </nodePos>
         </pegbar>
       <pegbar id="Col10">
@@ -2993,6 +3852,12 @@
             <L>
               0 -0.343473 
             </L>
+            <L>
+              <prev>
+                -0.343473 
+              </prev>
+              29 -0.343473 
+            </L>
             </keyframes>
           </x>
         <y>
@@ -3002,6 +3867,12 @@
           <keyframes>
             <L>
               0 -0.499998 
+            </L>
+            <L>
+              <prev>
+                -0.499998 
+              </prev>
+              29 -0.499998 
             </L>
             </keyframes>
           </y>
@@ -3013,6 +3884,12 @@
             <L>
               0 0 
             </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
+            </L>
             </keyframes>
           </z>
         <so>
@@ -3022,6 +3899,12 @@
           <keyframes>
             <L>
               0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </so>
@@ -3033,6 +3916,12 @@
             <L>
               0 1 
             </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              29 1 
+            </L>
             </keyframes>
           </sx>
         <sy>
@@ -3043,6 +3932,12 @@
             <L>
               0 1 
             </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              29 1 
+            </L>
             </keyframes>
           </sy>
         <sc>
@@ -3052,6 +3947,12 @@
           <keyframes>
             <L>
               0 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              29 1 
             </L>
             </keyframes>
           </sc>
@@ -3075,6 +3976,36 @@
               </prev>
               6 23.1278 
             </L>
+            <L>
+              <prev>
+                10.2108 
+              </prev>
+              12 10.2108 
+            </L>
+            <L>
+              <prev>
+                34.8044 
+              </prev>
+              18 34.8044 
+            </L>
+            <L>
+              <prev>
+                23.1278 
+              </prev>
+              24 23.1278 
+            </L>
+            <L>
+              <prev>
+                44.7912 
+              </prev>
+              26 44.7912 
+            </L>
+            <L>
+              <prev>
+                18.7345 
+              </prev>
+              29 18.7345 
+            </L>
             </keyframes>
           </rot>
         <pos>
@@ -3084,6 +4015,12 @@
           <keyframes>
             <L>
               0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </pos>
@@ -3095,6 +4032,12 @@
             <L>
               0 0 
             </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
+            </L>
             </keyframes>
           </shx>
         <shy>
@@ -3104,6 +4047,12 @@
           <keyframes>
             <L>
               0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </shy>
@@ -3134,6 +4083,12 @@
             <L>
               0 0.451697 
             </L>
+            <L>
+              <prev>
+                0.451697 
+              </prev>
+              29 0.451697 
+            </L>
             </keyframes>
           </x>
         <y>
@@ -3143,6 +4098,12 @@
           <keyframes>
             <L>
               0 -0.259025 
+            </L>
+            <L>
+              <prev>
+                -0.259025 
+              </prev>
+              29 -0.259025 
             </L>
             </keyframes>
           </y>
@@ -3154,6 +4115,12 @@
             <L>
               0 0 
             </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
+            </L>
             </keyframes>
           </z>
         <so>
@@ -3163,6 +4130,12 @@
           <keyframes>
             <L>
               0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </so>
@@ -3174,6 +4147,12 @@
             <L>
               0 1 
             </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              29 1 
+            </L>
             </keyframes>
           </sx>
         <sy>
@@ -3184,6 +4163,12 @@
             <L>
               0 1 
             </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              29 1 
+            </L>
             </keyframes>
           </sy>
         <sc>
@@ -3193,6 +4178,12 @@
           <keyframes>
             <L>
               0 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              29 1 
             </L>
             </keyframes>
           </sc>
@@ -3216,6 +4207,36 @@
               </prev>
               6 13.6799 
             </L>
+            <L>
+              <prev>
+                29.9029 
+              </prev>
+              12 29.9029 
+            </L>
+            <L>
+              <prev>
+                2.64239 
+              </prev>
+              18 2.64239 
+            </L>
+            <L>
+              <prev>
+                13.6799 
+              </prev>
+              24 13.6799 
+            </L>
+            <L>
+              <prev>
+                17.5602 
+              </prev>
+              26 17.5602 
+            </L>
+            <L>
+              <prev>
+                29.6514 
+              </prev>
+              29 29.6514 
+            </L>
             </keyframes>
           </rot>
         <pos>
@@ -3225,6 +4246,12 @@
           <keyframes>
             <L>
               0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </pos>
@@ -3236,6 +4263,12 @@
             <L>
               0 0 
             </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
+            </L>
             </keyframes>
           </shx>
         <shy>
@@ -3245,6 +4278,12 @@
           <keyframes>
             <L>
               0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </shy>
@@ -3283,6 +4322,12 @@
             <L>
               0 0 
             </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
+            </L>
             </keyframes>
           </x>
         <y>
@@ -3292,6 +4337,12 @@
           <keyframes>
             <L>
               0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </y>
@@ -3303,6 +4354,12 @@
             <L>
               0 0 
             </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
+            </L>
             </keyframes>
           </z>
         <so>
@@ -3312,6 +4369,12 @@
           <keyframes>
             <L>
               0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </so>
@@ -3323,6 +4386,12 @@
             <L>
               0 1 
             </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              29 1 
+            </L>
             </keyframes>
           </sx>
         <sy>
@@ -3333,6 +4402,12 @@
             <L>
               0 1 
             </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              29 1 
+            </L>
             </keyframes>
           </sy>
         <sc>
@@ -3342,6 +4417,12 @@
           <keyframes>
             <L>
               0 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              29 1 
             </L>
             </keyframes>
           </sc>
@@ -3355,15 +4436,57 @@
             </L>
             <L>
               <prev>
-                -23.367 
+                -46.2535 
               </prev>
-              4 -23.367 
+              4 -46.2535 
             </L>
             <L>
               <prev>
                 -7.67942 
               </prev>
               6 -7.67942 
+            </L>
+            <L>
+              <prev>
+                -3.40053 
+              </prev>
+              9 -3.40053 
+            </L>
+            <L>
+              <prev>
+                -19.1835 
+              </prev>
+              15 -19.1835 
+            </L>
+            <L>
+              <prev>
+                -7.67942 
+              </prev>
+              18 -7.67942 
+            </L>
+            <L>
+              <prev>
+                2.01067 
+              </prev>
+              21 2.01067 
+            </L>
+            <L>
+              <prev>
+                -7.67942 
+              </prev>
+              24 -7.67942 
+            </L>
+            <L>
+              <prev>
+                -46.2535 
+              </prev>
+              26 -46.2535 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </rot>
@@ -3375,6 +4498,12 @@
             <L>
               0 0 
             </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
+            </L>
             </keyframes>
           </pos>
         <shx>
@@ -3385,6 +4514,12 @@
             <L>
               0 0 
             </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
+            </L>
             </keyframes>
           </shx>
         <shy>
@@ -3394,6 +4529,12 @@
           <keyframes>
             <L>
               0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </shy>
@@ -3432,6 +4573,12 @@
             <L>
               0 0 
             </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
+            </L>
             </keyframes>
           </x>
         <y>
@@ -3441,6 +4588,12 @@
           <keyframes>
             <L>
               0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </y>
@@ -3452,6 +4605,12 @@
             <L>
               0 0 
             </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
+            </L>
             </keyframes>
           </z>
         <so>
@@ -3461,6 +4620,12 @@
           <keyframes>
             <L>
               0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </so>
@@ -3472,6 +4637,12 @@
             <L>
               0 1 
             </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              29 1 
+            </L>
             </keyframes>
           </sx>
         <sy>
@@ -3482,6 +4653,12 @@
             <L>
               0 1 
             </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              29 1 
+            </L>
             </keyframes>
           </sy>
         <sc>
@@ -3491,6 +4668,12 @@
           <keyframes>
             <L>
               0 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              29 1 
             </L>
             </keyframes>
           </sc>
@@ -3508,6 +4691,36 @@
               </prev>
               4 41.589 
             </L>
+            <L>
+              <prev>
+                52.584 
+              </prev>
+              12 52.584 
+            </L>
+            <L>
+              <prev>
+                38.9048 
+              </prev>
+              18 38.9048 
+            </L>
+            <L>
+              <prev>
+                44.0153 
+              </prev>
+              24 44.0153 
+            </L>
+            <L>
+              <prev>
+                41.589 
+              </prev>
+              26 41.589 
+            </L>
+            <L>
+              <prev>
+                40.9977 
+              </prev>
+              29 40.9977 
+            </L>
             </keyframes>
           </rot>
         <pos>
@@ -3517,6 +4730,12 @@
           <keyframes>
             <L>
               0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </pos>
@@ -3528,6 +4747,12 @@
             <L>
               0 0 
             </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
+            </L>
             </keyframes>
           </shx>
         <shy>
@@ -3537,6 +4762,12 @@
           <keyframes>
             <L>
               0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </shy>
@@ -3567,6 +4798,12 @@
             <L>
               0 0 
             </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
+            </L>
             </keyframes>
           </x>
         <y>
@@ -3576,6 +4813,12 @@
           <keyframes>
             <L>
               0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </y>
@@ -3587,6 +4830,12 @@
             <L>
               0 0 
             </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
+            </L>
             </keyframes>
           </z>
         <so>
@@ -3596,6 +4845,12 @@
           <keyframes>
             <L>
               0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </so>
@@ -3607,6 +4862,12 @@
             <L>
               0 1 
             </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              29 1 
+            </L>
             </keyframes>
           </sx>
         <sy>
@@ -3617,6 +4878,12 @@
             <L>
               0 1 
             </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              29 1 
+            </L>
             </keyframes>
           </sy>
         <sc>
@@ -3626,6 +4893,12 @@
           <keyframes>
             <L>
               0 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              29 1 
             </L>
             </keyframes>
           </sc>
@@ -3649,6 +4922,36 @@
               </prev>
               6 -62.3656 
             </L>
+            <L>
+              <prev>
+                -77.6673 
+              </prev>
+              12 -77.6673 
+            </L>
+            <L>
+              <prev>
+                -62.3656 
+              </prev>
+              18 -62.3656 
+            </L>
+            <L>
+              <prev>
+                -62.3656 
+              </prev>
+              24 -62.3656 
+            </L>
+            <L>
+              <prev>
+                -110.683 
+              </prev>
+              26 -110.683 
+            </L>
+            <L>
+              <prev>
+                -81.043 
+              </prev>
+              29 -81.043 
+            </L>
             </keyframes>
           </rot>
         <pos>
@@ -3658,6 +4961,12 @@
           <keyframes>
             <L>
               0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </pos>
@@ -3669,6 +4978,12 @@
             <L>
               0 0 
             </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
+            </L>
             </keyframes>
           </shx>
         <shy>
@@ -3678,6 +4993,12 @@
           <keyframes>
             <L>
               0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </shy>
@@ -3708,6 +5029,12 @@
             <L>
               0 0 
             </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
+            </L>
             </keyframes>
           </x>
         <y>
@@ -3717,6 +5044,12 @@
           <keyframes>
             <L>
               0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </y>
@@ -3728,6 +5061,12 @@
             <L>
               0 0 
             </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
+            </L>
             </keyframes>
           </z>
         <so>
@@ -3737,6 +5076,12 @@
           <keyframes>
             <L>
               0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </so>
@@ -3748,6 +5093,12 @@
             <L>
               0 1 
             </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              29 1 
+            </L>
             </keyframes>
           </sx>
         <sy>
@@ -3758,6 +5109,12 @@
             <L>
               0 1 
             </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              29 1 
+            </L>
             </keyframes>
           </sy>
         <sc>
@@ -3767,6 +5124,12 @@
           <keyframes>
             <L>
               0 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              29 1 
             </L>
             </keyframes>
           </sc>
@@ -3790,6 +5153,36 @@
               </prev>
               6 -21.7895 
             </L>
+            <L>
+              <prev>
+                -36.9786 
+              </prev>
+              12 -36.9786 
+            </L>
+            <L>
+              <prev>
+                -21.7895 
+              </prev>
+              18 -21.7895 
+            </L>
+            <L>
+              <prev>
+                -21.7895 
+              </prev>
+              24 -21.7895 
+            </L>
+            <L>
+              <prev>
+                76.2078 
+              </prev>
+              26 76.2078 
+            </L>
+            <L>
+              <prev>
+                39.7126 
+              </prev>
+              29 39.7126 
+            </L>
             </keyframes>
           </rot>
         <pos>
@@ -3799,6 +5192,12 @@
           <keyframes>
             <L>
               0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </pos>
@@ -3810,6 +5209,12 @@
             <L>
               0 0 
             </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
+            </L>
             </keyframes>
           </shx>
         <shy>
@@ -3819,6 +5224,12 @@
           <keyframes>
             <L>
               0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </shy>
@@ -3849,6 +5260,12 @@
             <L>
               0 0 
             </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
+            </L>
             </keyframes>
           </x>
         <y>
@@ -3858,6 +5275,12 @@
           <keyframes>
             <L>
               0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </y>
@@ -3869,6 +5292,12 @@
             <L>
               0 0 
             </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
+            </L>
             </keyframes>
           </z>
         <so>
@@ -3878,6 +5307,12 @@
           <keyframes>
             <L>
               0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </so>
@@ -3889,6 +5324,12 @@
             <L>
               0 1 
             </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              29 1 
+            </L>
             </keyframes>
           </sx>
         <sy>
@@ -3899,6 +5340,12 @@
             <L>
               0 1 
             </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              29 1 
+            </L>
             </keyframes>
           </sy>
         <sc>
@@ -3908,6 +5355,12 @@
           <keyframes>
             <L>
               0 1 
+            </L>
+            <L>
+              <prev>
+                1 
+              </prev>
+              29 1 
             </L>
             </keyframes>
           </sc>
@@ -3925,6 +5378,18 @@
               </prev>
               4 7.58438 
             </L>
+            <L>
+              <prev>
+                7.58438 
+              </prev>
+              26 7.58438 
+            </L>
+            <L>
+              <prev>
+                13.5889 
+              </prev>
+              29 13.5889 
+            </L>
             </keyframes>
           </rot>
         <pos>
@@ -3934,6 +5399,12 @@
           <keyframes>
             <L>
               0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </pos>
@@ -3945,6 +5416,12 @@
             <L>
               0 0 
             </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
+            </L>
             </keyframes>
           </shx>
         <shy>
@@ -3954,6 +5431,12 @@
           <keyframes>
             <L>
               0 0 
+            </L>
+            <L>
+              <prev>
+                0 
+              </prev>
+              29 0 
             </L>
             </keyframes>
           </shy>
@@ -3971,49 +5454,49 @@
           <Toonz_columnFx id='26'/>
         </fxnode>
         <fxnode>
-          <Toonz_columnFx id='36'/>
-        </fxnode>
-        <fxnode>
-          <Toonz_columnFx id='30'/>
-        </fxnode>
-        <fxnode>
           <Toonz_columnFx id='28'/>
-        </fxnode>
-        <fxnode>
-          <Toonz_columnFx id='34'/>
-        </fxnode>
-        <fxnode>
-          <Toonz_columnFx id='32'/>
-        </fxnode>
-        <fxnode>
-          <Toonz_columnFx id='52'/>
-        </fxnode>
-        <fxnode>
-          <Toonz_columnFx id='50'/>
-        </fxnode>
-        <fxnode>
-          <Toonz_columnFx id='48'/>
-        </fxnode>
-        <fxnode>
-          <Toonz_columnFx id='44'/>
-        </fxnode>
-        <fxnode>
-          <Toonz_columnFx id='38'/>
         </fxnode>
         <fxnode>
           <Toonz_columnFx id='46'/>
         </fxnode>
         <fxnode>
-          <Toonz_columnFx id='40'/>
+          <Toonz_columnFx id='38'/>
         </fxnode>
         <fxnode>
-          <Toonz_columnFx id='56'/>
+          <Toonz_columnFx id='36'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='50'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='34'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='44'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='52'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='32'/>
         </fxnode>
         <fxnode>
           <Toonz_columnFx id='42'/>
         </fxnode>
         <fxnode>
+          <Toonz_columnFx id='56'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='48'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='40'/>
+        </fxnode>
+        <fxnode>
           <Toonz_columnFx id='54'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='30'/>
         </fxnode>
         </terminal>
       <xsheet>
@@ -4089,5 +5572,6 @@
     "| #9   09 Jan 21   15:06   PRATIKSHA   prati           |"
     "| #10  15 Jan 21   13:18   PRATIK      Administrator   |"
     "| #11  16 Feb 21   15:45   PRATIK      Administrator   |"
+    "| #12  17 Feb 21   16:59   PRATIK      Administrator   |"
   </history>
   </tnz>
